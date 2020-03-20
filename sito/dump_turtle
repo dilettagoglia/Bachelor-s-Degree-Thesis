@@ -1,0 +1,4381 @@
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix d2r:     <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia:  <http://dbpedia.org/resource/> .
+@prefix fondonl:  <http://localhost:2020/resource/> .
+@prefix edm:     <http://www.europeana.eu/schemas/edm/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dbo:     <http://dbpedia.org/ontology/> .
+@prefix pico:    <http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/thesaurus/4.3/thesaurus_4.3.0.skos.xml#> .
+@prefix oa:      <http://www.w3.org/ns/oa#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix bibo:    <http://purl.org/ontology/bibo/> .
+@prefix map:     <http://localhost:2020/resource/#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+
+<http://localhost:2020/resource/oggetti/7>
+      a       pico:beni_archivistici ;
+      rdfs:label "Disposizioni genovesi per l'amministrazione cittadina" ;
+      dc:identifier 7 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/52> ;
+      skos:prefLabel "oggetti #7" .
+
+dc:identifier
+      a       rdf:Property ;
+      rdfs:label "persone id_pers" , "oggetti id_ogg" , "date id_data" , "luoghi id_luogo" .
+
+<http://localhost:2020/resource/oggetti/18>
+      a       pico:beni_archivistici ;
+      rdfs:label "Storia dei molini per lo Scrivia dal 1356 al 1779" ;
+      dc:identifier 18 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/159> ;
+      skos:prefLabel "oggetti #18" .
+
+<http://localhost:2020/resource/oggetti/146>
+      a       pico:beni_archivistici ;
+      rdfs:label "Contravvenzioni" ;
+      dc:identifier 146 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/109> ;
+      skos:prefLabel "oggetti #146" .
+
+<http://localhost:2020/resource/luoghi/1>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Genova" ;
+      dc:identifier 1 ;
+      dcterms:spatial 8.93386E0 , 44.4073E0 ;
+      owl:sameAs <https://lobid.org/gnd/5099507-8> , <http://it.dbpedia.org/resource/Genova> , <https://www.wikidata.org/wiki/Q1449> ;
+      geo:lat 44.4073E0 ;
+      geo:long 8.93386E0 ;
+      skos:prefLabel "luoghi #1" .
+
+<http://localhost:2020/resource/oggetti/134>
+      a       pico:beni_archivistici ;
+      rdfs:label "Verbali d'accusa per contravvenzioni ai bandi politici" ;
+      dc:identifier 134 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/82> ;
+      skos:prefLabel "oggetti #134" .
+
+<http://localhost:2020/resource/oggetti/122>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro dei processi civili e criminali" ;
+      dc:identifier 122 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/86> ;
+      skos:prefLabel "oggetti #122" .
+
+<http://localhost:2020/resource/oggetti/110>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere al Vicario episcopale, collettore delle decime per la cittÃ  di Tortona" ;
+      dc:identifier 110 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/10> ;
+      edm:occurredAt <http://localhost:2020/resource/date/61> ;
+      skos:prefLabel "oggetti #110" .
+
+<http://localhost:2020/resource/persone/21>
+      a       foaf:person ;
+      rdf:label "persone #21" ;
+      dc:identifier 21 ;
+      foaf:name "Iac[obus] Antonii Capelloni" .
+
+<http://localhost:2020/resource/date/97>
+      a       dc:date ;
+      dc:identifier 97 ;
+      dcterms:temporal "1659 - 1660" ;
+      edm:begin "1659" ;
+      edm:end "1660" ;
+      edm:hasType "intervallo" ;
+      edm:year "1660" , "1659" ;
+      skos:prefLabel "date #97" .
+
+<http://localhost:2020/resource/date/85>
+      a       dc:date ;
+      dc:identifier 85 ;
+      dcterms:temporal "1623 - 1624" ;
+      edm:begin "1623" ;
+      edm:end "1624" ;
+      edm:hasType "intervallo" ;
+      edm:year "1623" , "1624" ;
+      skos:prefLabel "date #85" .
+
+<http://localhost:2020/resource/date/73>
+      a       dc:date ;
+      dc:date "26 Settembre 1606" , "10 Aprile 1606" ;
+      dc:identifier 73 ;
+      dcterms:temporal "1606 Aprile 10 - 1606 Settembre 26" ;
+      edm:begin "10" , "10 Aprile 1606" , "Aprile" , "1606" ;
+      edm:day "10" , "26" ;
+      edm:end "26 Settembre 1606" , "Settembre" , "26" , "1606" ;
+      edm:hasType "intervallo" ;
+      edm:month "Settembre" , "Aprile" ;
+      edm:year "1606" ;
+      skos:prefLabel "date #73" .
+
+<http://localhost:2020/resource/date/61>
+      a       dc:date ;
+      dc:identifier 61 ;
+      dcterms:temporal "1561 - 1565" ;
+      edm:begin "1561" ;
+      edm:end "1565" ;
+      edm:hasType "intervallo" ;
+      edm:year "1565" , "1561" ;
+      skos:prefLabel "date #61" .
+
+<http://localhost:2020/resource/oggetti/158>
+      a       pico:beni_archivistici ;
+      rdfs:label "Passaggio di truppe, effetti e munizioni. Ordini ed avvisi" ;
+      dc:identifier 158 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #158" .
+
+<http://localhost:2020/resource/oggetti/6>
+      a       pico:beni_archivistici ;
+      rdfs:label "Molino di Busseto" ;
+      dc:identifier 6 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/4> ;
+      edm:occurredAt <http://localhost:2020/resource/date/49> ;
+      skos:prefLabel "oggetti #6" .
+
+<http://localhost:2020/resource/oggetti/19>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro dei decreti" ;
+      dc:identifier 19 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              3 ;
+      edm:occurredAt <http://localhost:2020/resource/date/157> ;
+      skos:prefLabel "oggetti #19" .
+
+<http://localhost:2020/resource/oggetti/157>
+      a       pico:beni_archivistici ;
+      rdfs:label "Inventarii degli effetti di casermaggio" ;
+      dc:identifier 157 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #157" .
+
+<http://localhost:2020/resource/oggetti/145>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro delle contravvenzioni ai bandi politici e campestri" ;
+      dc:identifier 145 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/37> ;
+      skos:prefLabel "oggetti #145" .
+
+<http://localhost:2020/resource/oggetti/133>
+      a       pico:beni_archivistici ;
+      rdfs:label "Verbali d'accusa per contravvenzioni ai bandi politici" ;
+      dc:identifier 133 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/80> ;
+      skos:prefLabel "oggetti #133" .
+
+<http://localhost:2020/resource/oggetti/121>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro dei processi civili e criminali" ;
+      dc:identifier 121 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/72> ;
+      skos:prefLabel "oggetti #121" .
+
+<http://localhost:2020/resource/persone/20>
+      a       foaf:person ;
+      rdf:label "persone #20" ;
+      dc:identifier 20 ;
+      foaf:name "Beatrice de Giudici" .
+
+dc:date
+      a       rdfs:Class , rdf:Property ;
+      rdfs:label "date data" , "date DBpedia_link_data" , "date data_iniziale" , "date data_finale" , "date" .
+
+<http://localhost:2020/resource/date/96>
+      a       dc:date ;
+      dc:identifier 96 ;
+      dcterms:temporal "1658 - 1659" ;
+      edm:begin "1658" ;
+      edm:end "1659" ;
+      edm:hasType "intervallo" ;
+      edm:year "1658" , "1659" ;
+      skos:prefLabel "date #96" .
+
+edm:end
+      a       rdf:Property ;
+      rdfs:label "date mese_finale" , "date anno_finale" , "date giorno_finale" , "date data_finale" .
+
+<http://localhost:2020/resource/date/84>
+      a       dc:date ;
+      dc:identifier 84 ;
+      dcterms:temporal "1619 - 1683" ;
+      edm:begin "1619" ;
+      edm:end "1683" ;
+      edm:hasType "intervallo" ;
+      edm:year "1619" , "1683" ;
+      skos:prefLabel "date #84" .
+
+<http://localhost:2020/resource/date/72>
+      a       dc:date ;
+      dc:date "8 Novembre 1600" , "31 Maggio 1601" ;
+      dc:identifier 72 ;
+      dcterms:temporal "1600 Novembre 8 - 1601 Maggio 31" ;
+      edm:begin "1600" , "8 Novembre 1600" , "8" , "Novembre" ;
+      edm:day "31" , "8" ;
+      edm:end "1601" , "31" , "Maggio" , "31 Maggio 1601" ;
+      edm:hasType "intervallo" ;
+      edm:month "Maggio" , "Novembre" ;
+      edm:year "1600" , "1601" ;
+      skos:prefLabel "date #72" .
+
+<http://localhost:2020/resource/date/60>
+      a       dc:date ;
+      dc:date "19 Novembre 1560" , "4 Ottobre 1560" ;
+      dc:identifier 60 ;
+      dcterms:temporal "1560 Ottobre 4 - 1560 Novembre 19" ;
+      edm:begin "Ottobre" , "1560" , "4" , "4 Ottobre 1560" ;
+      edm:day "19" , "4" ;
+      edm:end "19 Novembre 1560" , "19" , "1560" , "Novembre" ;
+      edm:hasType "intervallo" ;
+      edm:month "Ottobre" , "Novembre" ;
+      edm:year "1560" ;
+      skos:prefLabel "date #60" .
+
+<http://localhost:2020/resource/oggetti/169>
+      a       pico:beni_archivistici ;
+      rdfs:label "Conti correnti delle tre squadre [di] muli sotto l'appalto Lanzarotti e Buzzo" ;
+      dc:identifier 169 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #169" .
+
+<http://localhost:2020/resource/oggetti/5>
+      a       pico:beni_archivistici ;
+      rdfs:label "Convenzione con la cittÃ  di Genova del 1447" ;
+      dc:identifier 5 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/155> ;
+      skos:prefLabel "oggetti #5" .
+
+dcterms:temporal
+      a       rdf:Property ;
+      rdfs:label "date intervallo" .
+
+<http://localhost:2020/resource/oggetti/28>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consulari dal 9 luglio 1752 a tutto il 3 aprile 1756. Volume VII" ;
+      dc:identifier 28 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/119> ;
+      skos:prefLabel "oggetti #28" .
+
+<http://localhost:2020/resource/oggetti/168>
+      a       pico:beni_archivistici ;
+      rdfs:label "Mandati di pagamento" ;
+      dc:identifier 168 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #168" .
+
+<http://localhost:2020/resource/oggetti/156>
+      a       pico:beni_archivistici ;
+      rdfs:label "Guardia nazionale" ;
+      dc:identifier 156 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #156" .
+
+<http://localhost:2020/resource/oggetti/144>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro delle contravvenzioni ai bandi politici e campestri" ;
+      dc:identifier 144 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/36> ;
+      skos:prefLabel "oggetti #144" .
+
+<http://localhost:2020/resource/oggetti/16>
+      a       pico:beni_archivistici ;
+      rdfs:label "Acque. Mulini del Capitolo del Comune" ;
+      dc:identifier 16 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/41> ;
+      skos:prefLabel "oggetti #16" .
+
+foaf:name
+      a       rdf:Property ;
+      rdfs:label "persone persona" .
+
+<http://localhost:2020/resource/oggetti/132>
+      a       pico:beni_archivistici ;
+      rdfs:label "Verbali d'accusa per contravvenzioni ai bandi politici" ;
+      dc:identifier 132 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/76> ;
+      skos:prefLabel "oggetti #132" .
+
+<http://localhost:2020/resource/oggetti/120>
+      a       pico:beni_archivistici ;
+      rdfs:label "Interrogatori" ;
+      dc:identifier 120 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/21> ;
+      skos:prefLabel "oggetti #120" .
+
+<http://localhost:2020/resource/luoghi/3>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Gavi" ;
+      dc:identifier 3 ;
+      dcterms:spatial 8.80935E0 , 44.6876E0 ;
+      owl:sameAs <https://lobid.org/gnd/1600218-0> , <https://www.wikidata.org/wiki/Q17368> , <http://it.dbpedia.org/resource/Gavi> ;
+      geo:lat 44.6876E0 ;
+      geo:long 8.80935E0 ;
+      skos:prefLabel "luoghi #3" .
+
+<http://localhost:2020/resource/date/75>
+      a       dc:date ;
+      dc:date "30 Settembre 1608" , "9 Gennaio 1608" ;
+      dc:identifier 75 ;
+      dcterms:temporal "1608 Gennaio 9 - 1608 Settembre 30" ;
+      edm:begin "9" , "1608" , "9 Gennaio 1608" , "Gennaio" ;
+      edm:day "30" , "9" ;
+      edm:end "30 Settembre 1608" , "30" , "Settembre" , "1608" ;
+      edm:hasType "intervallo" ;
+      edm:month "Settembre" , "Gennaio" ;
+      edm:year "1608" ;
+      skos:prefLabel "date #75" .
+
+<http://localhost:2020/resource/date/63>
+      a       dc:date ;
+      dc:identifier 63 ;
+      dcterms:temporal "1568 - 1591" ;
+      edm:begin "1568" ;
+      edm:end "1591" ;
+      edm:hasType "intervallo" ;
+      edm:year "1568" , "1591" ;
+      skos:prefLabel "date #63" .
+
+<http://localhost:2020/resource/date/51>
+      a       dc:date ;
+      dc:date "24 ottobre 1524" ;
+      dc:identifier 51 ;
+      dcterms:temporal "1524 - 1530" ;
+      edm:begin "1524" , "24 ottobre 1524" , "Ottobre" , "24" ;
+      edm:day "24" ;
+      edm:end "1530" ;
+      edm:hasType "intervallo" ;
+      edm:month "Ottobre" ;
+      edm:year "1524" , "1530" ;
+      skos:prefLabel "date #51" .
+
+<http://localhost:2020/resource/date/109>
+      a       dc:date ;
+      dc:identifier 109 ;
+      dcterms:temporal "1705 - 1706" ;
+      edm:begin "1705" ;
+      edm:end "1706" ;
+      edm:hasType "intervallo" ;
+      edm:year "1706" , "1705" ;
+      skos:prefLabel "date #109" .
+
+<http://localhost:2020/resource/date/99>
+      a       dc:date ;
+      dc:identifier 99 ;
+      dcterms:temporal "1663 - 1684" ;
+      edm:begin "1663" ;
+      edm:end "1684" ;
+      edm:hasType "intervallo" ;
+      edm:year "1684" , "1663" ;
+      skos:prefLabel "date #99" .
+
+<http://localhost:2020/resource/date/87>
+      a       dc:date ;
+      dc:date "30 Marzo 1630" , "3 aprile Aprile 1629" ;
+      dc:identifier 87 ;
+      dcterms:temporal "1629 Aprile 3 - 1630 Marzo 30" ;
+      edm:begin "Aprile" , "3 aprile Aprile 1629" , "3" , "1629" ;
+      edm:day "30" , "3" ;
+      edm:end "30" , "1630" , "30 Marzo 1630" , "Marzo" ;
+      edm:hasType "intervallo" ;
+      edm:month "Aprile" , "Marzo" ;
+      edm:year "1630" , "1629" ;
+      skos:prefLabel "date #87" .
+
+edm:happenedAt
+      a       rdf:Property .
+
+<http://localhost:2020/resource/oggetti/4>
+      a       pico:beni_archivistici ;
+      rdfs:label "Convenzione con la cittÃ  di Genova del 1157" ;
+      dc:identifier 4 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/38> ;
+      skos:prefLabel "oggetti #4" .
+
+<http://localhost:2020/resource/oggetti/29>
+      a       pico:beni_archivistici ;
+      rdfs:label "Liber Deliberationum Mag[nifi]ci Concilii Novarum anni 1756 in 1757 usque ad annum 1764 in 1765 recepti per me Sebastianum Oliverium notarium et M. Comunitatis cancellarium" ;
+      dc:identifier 29 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/122> ;
+      skos:prefLabel "oggetti #29" .
+
+<http://localhost:2020/resource/oggetti/17>
+      a       pico:beni_archivistici ;
+      rdfs:label "Catastro. Memoria senza data" ;
+      dc:identifier 17 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/156> ;
+      skos:prefLabel "oggetti #17" .
+
+<http://localhost:2020/resource/oggetti/179>
+      a       pico:beni_archivistici ;
+      rdfs:label "Monte di pietÃ  di Novi" ;
+      dc:identifier 179 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/77> ;
+      skos:prefLabel "oggetti #179" .
+
+<http://localhost:2020/resource/oggetti/167>
+      a       pico:beni_archivistici ;
+      rdfs:label "Somministrazioni militari" ;
+      dc:identifier 167 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Registri> , "Registri" ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #167" .
+
+<http://localhost:2020/resource/luoghi/2>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Milano" ;
+      dc:identifier 2 ;
+      dcterms:spatial 9.1905E0 , 45.4668E0 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Milano> , <https://www.wikidata.org/wiki/Q490> ;
+      geo:lat 45.4668E0 ;
+      geo:long 9.1905E0 ;
+      skos:prefLabel "luoghi #2" .
+
+<http://localhost:2020/resource/oggetti/155>
+      a       pico:beni_archivistici ;
+      rdfs:label "Passaggio di truppe e somministrazioni militari" ;
+      dc:identifier 155 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #155" .
+
+<http://localhost:2020/resource/oggetti/143>
+      a       pico:beni_archivistici ;
+      rdfs:label "Vaccheta accusarum" ;
+      dc:identifier 143 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/100> ;
+      skos:prefLabel "oggetti #143" .
+
+<http://localhost:2020/resource/oggetti/131>
+      a       pico:beni_archivistici ;
+      rdfs:label "Verbali d'accusa per contravvenzioni ai bandi politici" ;
+      dc:identifier 131 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/75> ;
+      skos:prefLabel "oggetti #131" .
+
+edm:hasType
+      a       rdf:Property ;
+      rdfs:label "date tipo" .
+
+<http://localhost:2020/resource/date/86>
+      a       dc:date ;
+      dc:date "27 Novembre 1628" , "17 Luglio 1628" ;
+      dc:identifier 86 ;
+      dcterms:temporal "1628 Luglio 17 - 1628 Novembre 27" ;
+      edm:begin "Luglio" , "17 Luglio 1628" , "17" , "1628" ;
+      edm:day "17" , "27" ;
+      edm:end "27 Novembre 1628" , "27" , "Novembre" , "1628" ;
+      edm:hasType "intervallo" ;
+      edm:month "Luglio" , "Novembre" ;
+      edm:year "1628" ;
+      skos:prefLabel "date #86" .
+
+<http://localhost:2020/resource/date/74>
+      a       dc:date ;
+      dc:date "29 Dicembre 1607" ;
+      dc:identifier 74 ;
+      dcterms:temporal "1607 - 1607" ;
+      edm:begin "Febbraio" , "1607" ;
+      edm:day "29" ;
+      edm:end "Dicembre" , "29" , "29 Dicembre 1607" , "1607" ;
+      edm:hasType "intervallo" ;
+      edm:month "Febbraio" , "Dicembre" ;
+      edm:year "1607" ;
+      skos:prefLabel "date #74" .
+
+<http://localhost:2020/resource/date/62>
+      a       dc:date ;
+      dc:date "12 Febbraio 1562" , "27 Aprile 1579" ;
+      dc:identifier 62 ;
+      dcterms:temporal "1562 Febbraio 12 - 1579 Aprile 27" ;
+      edm:begin "Febbraio" , "12 Febbraio 1562" , "1562" , "12" ;
+      edm:day "27" , "12" ;
+      edm:end "1579" , "Aprile" , "27" , "27 Aprile 1579" ;
+      edm:hasType "intervallo" ;
+      edm:month "Febbraio" , "Aprile" ;
+      edm:year "1579" , "1562" ;
+      skos:prefLabel "date #62" .
+
+<http://localhost:2020/resource/date/50>
+      a       dc:date ;
+      dc:identifier 50 ;
+      dcterms:temporal "1515 - 1522" ;
+      edm:begin "1515" ;
+      edm:end "1522" ;
+      edm:hasType "intervallo" ;
+      edm:year "1515" , "1522" ;
+      skos:prefLabel "date #50" .
+
+<http://localhost:2020/resource/date/98>
+      a       dc:date ;
+      dc:identifier 98 ;
+      dcterms:temporal "1662 - 1663" ;
+      edm:begin "1662" ;
+      edm:end "1663" ;
+      edm:hasType "intervallo" ;
+      edm:year "1662" , "1663" ;
+      skos:prefLabel "date #98" .
+
+skos:related
+      a       rdf:Property .
+
+<http://localhost:2020/resource/oggetti/178>
+      a       pico:beni_archivistici ;
+      rdfs:label "Strade. Piano per l'adattamento delle strade proposto li 6 marzo 1798 e risposta data in proposito dal Municipio di Novi" ;
+      dc:identifier 178 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              15 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #178" .
+
+<http://localhost:2020/resource/oggetti/166>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro dei pagamenti" ;
+      dc:identifier 166 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #166" .
+
+<http://localhost:2020/resource/oggetti/154>
+      a       pico:beni_archivistici ;
+      rdfs:label "Alloggiamenti forniti alle truppe francesi" ;
+      dc:identifier 154 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #154" .
+
+<http://localhost:2020/resource/oggetti/142>
+      a       pico:beni_archivistici ;
+      rdfs:label "Accusarum" ;
+      dc:identifier 142 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/97> ;
+      skos:prefLabel "oggetti #142" .
+
+<http://localhost:2020/resource/oggetti/130>
+      a       pico:beni_archivistici ;
+      rdfs:label "Vacheta accusarum" ;
+      dc:identifier 130 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/73> ;
+      skos:prefLabel "oggetti #130" .
+
+foaf:person
+      a       rdfs:Class ;
+      rdfs:label "persone" .
+
+<http://localhost:2020/resource/date/53>
+      a       dc:date ;
+      dc:identifier 53 ;
+      dcterms:temporal "1534 - 1536" ;
+      edm:begin "1534" ;
+      edm:end "1536" ;
+      edm:hasType "intervallo" ;
+      edm:year "1534" , "1536" ;
+      skos:prefLabel "date #53" .
+
+edm:Place
+      a       rdfs:Class ;
+      rdfs:label "luoghi" .
+
+<http://localhost:2020/resource/date/41>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1779> ;
+      dc:identifier 41 ;
+      edm:hasType "anno" ;
+      edm:year "1779" ;
+      skos:prefLabel "date #41" .
+
+<http://localhost:2020/resource/date/107>
+      a       dc:date ;
+      dc:identifier 107 ;
+      dcterms:temporal "1684 - 1686" ;
+      edm:begin "1684" ;
+      edm:end "1686" ;
+      edm:hasType "intervallo" ;
+      edm:year "1684" , "1686" ;
+      skos:prefLabel "date #107" .
+
+<http://localhost:2020/resource/date/119>
+      a       dc:date ;
+      dc:date "3 Aprile 1756" , "9 Luglio 1752" ;
+      dc:identifier 119 ;
+      dcterms:temporal "1752 Luglio 9 - 1756 Aprile 3" ;
+      edm:begin "1752" , "Luglio" , "9" , "9 Luglio 1752" ;
+      edm:day "9" , "3" ;
+      edm:end "1756" , "Aprile" , "3" , "3 Aprile 1756" ;
+      edm:hasType "intervallo" ;
+      edm:month "Luglio" , "Aprile" ;
+      edm:year "1752" , "1756" ;
+      skos:prefLabel "date #119" .
+
+<http://localhost:2020/resource/date/89>
+      a       dc:date ;
+      dc:identifier 89 ;
+      dcterms:temporal "1633 - 1634" ;
+      edm:begin "1633" ;
+      edm:end "1634" ;
+      edm:hasType "intervallo" ;
+      edm:year "1633" , "1634" ;
+      skos:prefLabel "date #89" .
+
+<http://localhost:2020/resource/date/77>
+      a       dc:date ;
+      dc:identifier 77 ;
+      dcterms:temporal "1611 - 1613" ;
+      edm:begin "1611" ;
+      edm:end "1613" ;
+      edm:hasType "intervallo" ;
+      edm:year "1611" , "1613" ;
+      skos:prefLabel "date #77" .
+
+<http://localhost:2020/resource/date/65>
+      a       dc:date ;
+      dc:identifier 65 ;
+      dcterms:temporal "1573 - 1680" ;
+      edm:begin "1573" ;
+      edm:end "1680" ;
+      edm:hasType "intervallo" ;
+      edm:year "1680" , "1573" ;
+      skos:prefLabel "date #65" .
+
+dcterms:spatial
+      a       rdf:Property ;
+      rdfs:label "luoghi lat" , "luoghi long" .
+
+<http://localhost:2020/resource/oggetti/189>
+      a       pico:beni_archivistici ;
+      rdfs:label "Quaderno dei conti di Giovanni Maria Cattanio" ;
+      dc:identifier 189 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Quaderno> , "Quaderno" ;
+      pico:serie_archivistiche
+              17 ;
+      edm:occurredAt <http://localhost:2020/resource/date/50> ;
+      skos:prefLabel "oggetti #189" ;
+      skos:related <http://localhost:2020/resource/persone/15> .
+
+<http://localhost:2020/resource/oggetti/177>
+      a       pico:beni_archivistici ;
+      rdfs:label "Strade. Ordini, provvidenze ed avvisi" ;
+      dc:identifier 177 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              15 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #177" .
+
+<http://localhost:2020/resource/oggetti/165>
+      a       pico:beni_archivistici ;
+      rdfs:label "Alloggi per l'armata austro - russa" ;
+      dc:identifier 165 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Quaderno> , "Quaderno" ;
+      pico:serie_archivistiche
+              14 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/15> , <http://localhost:2020/resource/luoghi/13> ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #165" .
+
+<http://localhost:2020/resource/oggetti/153>
+      a       pico:beni_archivistici ;
+      rdfs:label "Ruoli delle paghe militari" ;
+      dc:identifier 153 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/45> ;
+      skos:prefLabel "oggetti #153" .
+
+<http://localhost:2020/resource/oggetti/141>
+      a       pico:beni_archivistici ;
+      rdfs:label "Accusarum" ;
+      dc:identifier 141 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/96> ;
+      skos:prefLabel "oggetti #141" .
+
+<http://localhost:2020/resource/date/64>
+      a       dc:date ;
+      dc:identifier 64 ;
+      dcterms:temporal "1571 - 1584" ;
+      edm:begin "1571" ;
+      edm:end "1584" ;
+      edm:hasType "intervallo" ;
+      edm:year "1571" , "1584" ;
+      skos:prefLabel "date #64" .
+
+<http://localhost:2020/resource/date/52>
+      a       dc:date ;
+      dc:identifier 52 ;
+      dcterms:temporal "1527 - 1756" ;
+      edm:begin "1527" ;
+      edm:end "1756" ;
+      edm:hasType "intervallo" ;
+      edm:year "1756" , "1527" ;
+      skos:prefLabel "date #52" .
+
+<http://localhost:2020/resource/date/40>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1774> ;
+      dc:identifier 40 ;
+      edm:hasType "anno" ;
+      edm:year "1774" ;
+      skos:prefLabel "date #40" .
+
+rdfs:label
+      a       rdf:Property ;
+      rdfs:label "oggetti titolo" , "luoghi luogo" .
+
+<http://localhost:2020/resource/date/108>
+      a       dc:date ;
+      dc:identifier 108 ;
+      dcterms:temporal "1695 - 1696" ;
+      edm:begin "1695" ;
+      edm:end "1696" ;
+      edm:hasType "intervallo" ;
+      edm:year "1695" , "1696" ;
+      skos:prefLabel "date #108" .
+
+<http://localhost:2020/resource/date/88>
+      a       dc:date ;
+      dc:identifier 88 ;
+      dcterms:temporal "1631 - 1670" ;
+      edm:begin "1631" ;
+      edm:end "1670" ;
+      edm:hasType "intervallo" ;
+      edm:year "1631" , "1670" ;
+      skos:prefLabel "date #88" .
+
+<http://localhost:2020/resource/date/76>
+      a       dc:date ;
+      dc:date "24 Gennaio 1612" , "7 Gennaio 1610" ;
+      dc:identifier 76 ;
+      dcterms:temporal "1610 Gennaio 7 - 1612 Gennaio 24" ;
+      edm:begin "1610" , "7" , "7 Gennaio 1610" , "Gennaio" ;
+      edm:day "7" , "24" ;
+      edm:end "1612" , "24 Gennaio 1612" , "24" , "Gennaio" ;
+      edm:hasType "intervallo" ;
+      edm:month "Gennaio" ;
+      edm:year "1612" , "1610" ;
+      skos:prefLabel "date #76" .
+
+<http://localhost:2020/resource/oggetti/9>
+      a       pico:beni_archivistici ;
+      rdfs:label "Raccolta di atti antichi" ;
+      dc:identifier 9 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Quaderno> , "Quaderno" ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/5> ;
+      skos:prefLabel "oggetti #9" .
+
+<http://localhost:2020/resource/oggetti/188>
+      a       pico:beni_archivistici ;
+      rdfs:label "Anno milesimo septingentesimo septuagesimo primo DD. MM. Johannes Carolus Campanticus et Paulus Franciscus Cavanna ad Montem pietatis huisce Civitatis Novarum deputati, hosce libros renovarunt, quorum pretium, libras quinquaginta non excedit" ;
+      dc:identifier 188 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/127> ;
+      skos:prefLabel "oggetti #188" .
+
+<http://localhost:2020/resource/oggetti/176>
+      a       pico:beni_archivistici ;
+      rdfs:label "Instrumento d'acquisto del Palazzo civico" ;
+      dc:identifier 176 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              15 ;
+      edm:occurredAt <http://localhost:2020/resource/date/13> ;
+      skos:prefLabel "oggetti #176" .
+
+<http://localhost:2020/resource/oggetti/164>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro di spese fatte all'ospitale del Carmine in Novi" ;
+      dc:identifier 164 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #164" .
+
+<http://localhost:2020/resource/oggetti/152>
+      a       pico:beni_archivistici ;
+      rdfs:label "Taglio di un bosco alla Grimalda" ;
+      dc:identifier 152 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/3> ;
+      edm:occurredAt <http://localhost:2020/resource/date/15> ;
+      skos:prefLabel "oggetti #152" .
+
+<http://localhost:2020/resource/oggetti/140>
+      a       pico:beni_archivistici ;
+      rdfs:label "Vaccheta accusarum mei Hier Bovoni notarii MDCLVI" ;
+      dc:identifier 140 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/95> ;
+      skos:prefLabel "oggetti #140" .
+
+<http://localhost:2020/resource/date/31>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1644> ;
+      dc:identifier 31 ;
+      edm:hasType "anno" ;
+      edm:year "1644" ;
+      skos:prefLabel "date #31" .
+
+<http://localhost:2020/resource/date/117>
+      a       dc:date ;
+      dc:identifier 117 ;
+      dcterms:temporal "1745 - 1800" ;
+      edm:begin "1745" ;
+      edm:end "1800" ;
+      edm:hasType "intervallo" ;
+      edm:year "1745" , "1800" ;
+      skos:prefLabel "date #117" .
+
+<http://localhost:2020/resource/date/129>
+      a       dc:date ;
+      dc:identifier 129 ;
+      dcterms:temporal "1775 - 1796" ;
+      edm:begin "1775" ;
+      edm:end "1796" ;
+      edm:hasType "intervallo" ;
+      edm:year "1775" , "1796" ;
+      skos:prefLabel "date #129" .
+
+<http://localhost:2020/resource/date/79>
+      a       dc:date ;
+      dc:identifier 79 ;
+      dcterms:temporal "1612 - 1698" ;
+      edm:begin "1612" ;
+      edm:end "1698" ;
+      edm:hasType "intervallo" ;
+      edm:year "1612" , "1698" ;
+      skos:prefLabel "date #79" .
+
+<http://localhost:2020/resource/date/67>
+      a       dc:date ;
+      dc:identifier 67 ;
+      dcterms:temporal "1580 - 1644" ;
+      edm:begin "1580" ;
+      edm:end "1644" ;
+      edm:hasType "intervallo" ;
+      edm:year "1644" , "1580" ;
+      skos:prefLabel "date #67" .
+
+<http://localhost:2020/resource/date/55>
+      a       dc:date ;
+      dc:identifier 55 ;
+      dcterms:temporal "1539 - 1549" ;
+      edm:begin "1539" ;
+      edm:end "1549" ;
+      edm:hasType "intervallo" ;
+      edm:year "1549" , "1539" ;
+      skos:prefLabel "date #55" .
+
+<http://localhost:2020/resource/date/43>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1786> ;
+      dc:identifier 43 ;
+      edm:hasType "anno" ;
+      edm:year "1786" ;
+      skos:prefLabel "date #43" .
+
+<http://localhost:2020/resource/date/105>
+      a       dc:date ;
+      dc:date "25 Giugno 1677" , "12 Settembre 1685" ;
+      dc:identifier 105 ;
+      dcterms:temporal "1677 Giugno 25 - 1685 Settembre 12" ;
+      edm:begin "1677" , "25 Giugno 1677" , "Giugno" , "25" ;
+      edm:day "25" , "12" ;
+      edm:end "12 Settembre 1685" , "1685" , "Settembre" , "12" ;
+      edm:hasType "intervallo" ;
+      edm:month "Giugno" , "Settembre" ;
+      edm:year "1677" , "1685" ;
+      skos:prefLabel "date #105" .
+
+<http://localhost:2020/resource/oggetti/8>
+      a       pico:beni_archivistici ;
+      rdfs:label "Oratione di M. Lorenzo Capellono al Serenissimo Principe di Spagna, nella sua venuta a Genova" ;
+      dc:identifier 8 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Quaderno> , "Quaderno" ;
+      pico:serie_archivistiche
+              2 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/5> ;
+      edm:occurredAt <http://localhost:2020/resource/date/19> ;
+      skos:prefLabel "oggetti #8" ;
+      skos:related <http://localhost:2020/resource/persone/1> .
+
+<http://localhost:2020/resource/oggetti/199>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 199 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/56> ;
+      skos:prefLabel "oggetti #199" .
+
+<http://localhost:2020/resource/oggetti/187>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro inventario dei beni dati in pegno" ;
+      dc:identifier 187 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/125> ;
+      skos:prefLabel "oggetti #187" .
+
+<http://localhost:2020/resource/oggetti/175>
+      a       pico:beni_archivistici ;
+      rdfs:label "Strade. Contrada S. Andrea che tende al Castello" ;
+      dc:identifier 175 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              15 ;
+      edm:occurredAt <http://localhost:2020/resource/date/42> ;
+      skos:prefLabel "oggetti #175" .
+
+<http://localhost:2020/resource/oggetti/163>
+      a       pico:beni_archivistici ;
+      rdfs:label "Abusi delle truppe francesi" ;
+      dc:identifier 163 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/16> ;
+      skos:prefLabel "oggetti #163" .
+
+<http://localhost:2020/resource/oggetti/151>
+      a       pico:beni_archivistici ;
+      rdfs:label "Processi verbali per atti contro il Governo Repubblicano" ;
+      dc:identifier 151 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #151" .
+
+<http://localhost:2020/resource/date/42>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1780> ;
+      dc:identifier 42 ;
+      edm:hasType "anno" ;
+      edm:year "1780" ;
+      skos:prefLabel "date #42" .
+
+<http://localhost:2020/resource/date/30>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1642> ;
+      dc:identifier 30 ;
+      edm:hasType "anno" ;
+      edm:year "1642" ;
+      skos:prefLabel "date #30" .
+
+<http://localhost:2020/resource/date/106>
+      a       dc:date ;
+      dc:identifier 106 ;
+      dcterms:temporal "1682 - 1684" ;
+      edm:begin "1682" ;
+      edm:end "1684" ;
+      edm:hasType "intervallo" ;
+      edm:year "1684" , "1682" ;
+      skos:prefLabel "date #106" .
+
+<http://localhost:2020/resource/date/118>
+      a       dc:date ;
+      dc:date "4 maggio 1746" , "8 Maggio 1748" ;
+      dc:identifier 118 ;
+      dcterms:temporal "1746 Maggio 4 - 1748 Maggio 8" ;
+      edm:begin "1746" , "Maggio" , "4 maggio 1746" , "4" ;
+      edm:day "8" , "4" ;
+      edm:end "Maggio" , "8" , "1748" , "8 Maggio 1748" ;
+      edm:hasType "intervallo" ;
+      edm:month "Maggio" ;
+      edm:year "1746" , "1748" ;
+      skos:prefLabel "date #118" .
+
+<http://localhost:2020/resource/date/78>
+      a       dc:date ;
+      dc:identifier 78 ;
+      dcterms:temporal "1611 - 1614" ;
+      edm:begin "1611" ;
+      edm:end "1614" ;
+      edm:hasType "intervallo" ;
+      edm:year "1611" , "1614" ;
+      skos:prefLabel "date #78" .
+
+<http://localhost:2020/resource/date/66>
+      a       dc:date ;
+      dc:date "17 Agosto 1579" , "28 Maggio 1594" ;
+      dc:identifier 66 ;
+      dcterms:temporal "1579 Agosto 17 - 1594 Maggio 28" ;
+      edm:begin "1579" , "Agosto" , "17 Agosto 1579" , "17" ;
+      edm:day "28" , "17" ;
+      edm:end "28 Maggio 1594" , "Maggio" , "28" , "1594" ;
+      edm:hasType "intervallo" ;
+      edm:month "Agosto" , "Maggio" ;
+      edm:year "1579" , "1594" ;
+      skos:prefLabel "date #66" .
+
+<http://localhost:2020/resource/date/54>
+      a       dc:date ;
+      dc:identifier 54 ;
+      dcterms:temporal "1538 - 1539" ;
+      edm:begin "1538" ;
+      edm:end "1539" ;
+      edm:hasType "intervallo" ;
+      edm:year "1538" , "1539" ;
+      skos:prefLabel "date #54" .
+
+<http://localhost:2020/resource/persone/17>
+      a       foaf:person ;
+      rdf:label "persone #17" ;
+      dc:identifier 17 ;
+      foaf:name "Benedetto Carega" .
+
+<http://localhost:2020/resource/oggetti/198>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 198 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/54> ;
+      skos:prefLabel "oggetti #198" .
+
+<http://localhost:2020/resource/oggetti/186>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro inventario dei beni dati in pegno" ;
+      dc:identifier 186 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/123> ;
+      skos:prefLabel "oggetti #186" .
+
+<http://localhost:2020/resource/oggetti/174>
+      a       pico:beni_archivistici ;
+      rdfs:label "Frammenti di progetto non identificato" ;
+      dc:identifier 174 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              15 ;
+      edm:occurredAt <http://localhost:2020/resource/date/154> ;
+      skos:prefLabel "oggetti #174" .
+
+<http://localhost:2020/resource/oggetti/162>
+      a       pico:beni_archivistici ;
+      rdfs:label "Abusi delle truppe francesi" ;
+      dc:identifier 162 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/14> ;
+      skos:prefLabel "oggetti #162" .
+
+<http://localhost:2020/resource/oggetti/150>
+      a       pico:beni_archivistici ;
+      rdfs:label "Polizia. Ordini d'arresto di delinquenti. Partecipazioni di fuga di detenuti, di delitti commessi ed avvenimenti" ;
+      dc:identifier 150 ;
+      dc:language "Francese" , "Italiano" ;
+      dcterms:medium "registro" ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/45> ;
+      skos:prefLabel "oggetti #150" .
+
+<http://localhost:2020/resource/date/139>
+      a       dc:date ;
+      dc:identifier 139 ;
+      dcterms:temporal "1796 - 1797" ;
+      edm:begin "1796" ;
+      edm:end "1797" ;
+      edm:hasType "intervallo" ;
+      edm:year "1797" , "1796" ;
+      skos:prefLabel "date #139" .
+
+<http://localhost:2020/resource/date/103>
+      a       dc:date ;
+      dc:identifier 103 ;
+      dcterms:temporal "1674 - 1676" ;
+      edm:begin "1674" ;
+      edm:end "1676" ;
+      edm:hasType "intervallo" ;
+      edm:year "1674" , "1676" ;
+      skos:prefLabel "date #103" .
+
+<http://localhost:2020/resource/date/115>
+      a       dc:date ;
+      dc:identifier 115 ;
+      dcterms:temporal "1730 - 1811" ;
+      edm:begin "1730" ;
+      edm:end "1811" ;
+      edm:hasType "intervallo" ;
+      edm:year "1730" , "1811" ;
+      skos:prefLabel "date #115" .
+
+<http://localhost:2020/resource/date/127>
+      a       dc:date ;
+      dc:identifier 127 ;
+      dcterms:temporal "1772 - 1785" ;
+      edm:begin "1772" ;
+      edm:end "1785" ;
+      edm:hasType "intervallo" ;
+      edm:year "1785" , "1772" ;
+      skos:prefLabel "date #127" .
+
+<http://localhost:2020/resource/persone/16>
+      a       foaf:person ;
+      rdf:label "persone #16" ;
+      dc:identifier 16 ;
+      owl:sameAs <https://lobid.org/gnd/12960786X> , <https://viaf.org/viaf/29522730> ;
+      foaf:name "Jacomo Bosio" .
+
+<http://localhost:2020/resource/oggetti/197>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 197 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/53> ;
+      skos:prefLabel "oggetti #197" .
+
+<http://localhost:2020/resource/oggetti/185>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro inventario dei beni dati in pegno con l'indicazione del loro valore" ;
+      dc:identifier 185 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/113> ;
+      skos:prefLabel "oggetti #185" .
+
+<http://localhost:2020/resource/oggetti/173>
+      a       pico:beni_archivistici ;
+      rdfs:label "Spese per l'occupazione francese" ;
+      dc:identifier 173 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/152> ;
+      skos:prefLabel "oggetti #173" .
+
+<http://localhost:2020/resource/oggetti/161>
+      a       pico:beni_archivistici ;
+      rdfs:label "Giornale dell'ospitale militare" ;
+      dc:identifier 161 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #161" .
+
+<http://localhost:2020/resource/oggetti/90>
+      a       pico:beni_archivistici ;
+      rdfs:label "Ordinanza \"per li macellari\"" ;
+      dc:identifier 90 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/8> ;
+      skos:prefLabel "oggetti #90" .
+
+<http://localhost:2020/resource/date/128>
+      a       dc:date ;
+      dc:identifier 128 ;
+      dcterms:temporal "1773 - 1790" ;
+      edm:begin "1773" ;
+      edm:end "1790" ;
+      edm:hasType "intervallo" ;
+      edm:year "1773" , "1790" ;
+      skos:prefLabel "date #128" .
+
+<http://localhost:2020/resource/date/104>
+      a       dc:date ;
+      dc:identifier 104 ;
+      dcterms:temporal "1674 - 1682" ;
+      edm:begin "1674" ;
+      edm:end "1682" ;
+      edm:hasType "intervallo" ;
+      edm:year "1674" , "1682" ;
+      skos:prefLabel "date #104" .
+
+<http://localhost:2020/resource/date/116>
+      a       dc:date ;
+      dc:identifier 116 ;
+      dcterms:temporal "1736 - 1747" ;
+      edm:begin "1736" ;
+      edm:end "1747" ;
+      edm:hasType "intervallo" ;
+      edm:year "1736" , "1747" ;
+      skos:prefLabel "date #116" .
+
+<http://localhost:2020/resource/oggetti/160>
+      a       pico:beni_archivistici ;
+      rdfs:label "Proclami, manifesti, ordini del giorno, indirizzi dei comandanti le armate russe, austriache e francesi, del Governo ligure e di altre autoritÃ  diretti alla Nazione ligure od ai rappresentanti della medesima" ;
+      dc:identifier 160 ;
+      dc:language "Francese" , "Italiano" ;
+      dcterms:medium "fascicolo" ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #160" .
+
+<http://localhost:2020/resource/persone/27>
+      a       foaf:person ;
+      rdf:label "persone #27" ;
+      dc:identifier 27 ;
+      foaf:name "Nicolosii Rubei" .
+
+<http://localhost:2020/resource/persone/15>
+      a       foaf:person ;
+      rdf:label "persone #15" ;
+      dc:identifier 15 ;
+      foaf:name "Giovanni Maria Cattanio" .
+
+<http://localhost:2020/resource/oggetti/196>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 196 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/17> ;
+      skos:prefLabel "oggetti #196" .
+
+<http://localhost:2020/resource/oggetti/184>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro inventario dei beni dati in pegno" ;
+      dc:identifier 184 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/111> ;
+      skos:prefLabel "oggetti #184" .
+
+<http://localhost:2020/resource/oggetti/172>
+      a       pico:beni_archivistici ;
+      rdfs:label "Giornale delle armate austrorusse 1799" ;
+      dc:identifier 172 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #172" .
+
+<http://localhost:2020/resource/date/101>
+      a       dc:date ;
+      dc:identifier 101 ;
+      dcterms:temporal "1667 - 1668" ;
+      edm:begin "1667" ;
+      edm:end "1668" ;
+      edm:hasType "intervallo" ;
+      edm:year "1667" , "1668" ;
+      skos:prefLabel "date #101" .
+
+<http://localhost:2020/resource/date/91>
+      a       dc:date ;
+      dc:identifier 91 ;
+      dcterms:temporal "1638 - 1652" ;
+      edm:begin "1638" ;
+      edm:end "1652" ;
+      edm:hasType "intervallo" ;
+      edm:year "1652" , "1638" ;
+      skos:prefLabel "date #91" .
+
+<http://localhost:2020/resource/date/113>
+      a       dc:date ;
+      dc:date "24 Dicembre 1737" , "2 Gennaio 1723" ;
+      dc:identifier 113 ;
+      dcterms:temporal "1723 Gennaio 2 - 1737 Dicembre 24" ;
+      edm:begin "1723" , "2 Gennaio 1723" , "2" , "Gennaio" ;
+      edm:day "24" , "2" ;
+      edm:end "Dicembre" , "24 Dicembre 1737" , "1737" , "24" ;
+      edm:hasType "intervallo" ;
+      edm:month "Dicembre" , "Gennaio" ;
+      edm:year "1723" , "1737" ;
+      skos:prefLabel "date #113" .
+
+<http://localhost:2020/resource/date/125>
+      a       dc:date ;
+      dc:identifier 125 ;
+      dcterms:temporal "1767 - 1781" ;
+      edm:begin "1767" ;
+      edm:end "1781" ;
+      edm:hasType "intervallo" ;
+      edm:year "1767" , "1781" ;
+      skos:prefLabel "date #125" .
+
+<http://localhost:2020/resource/date/137>
+      a       dc:date ;
+      dc:identifier 137 ;
+      dcterms:temporal "1790 - 1801" ;
+      edm:begin "1790" ;
+      edm:end "1801" ;
+      edm:hasType "intervallo" ;
+      edm:year "1801" , "1790" ;
+      skos:prefLabel "date #137" .
+
+<http://localhost:2020/resource/date/149>
+      a       dc:date ;
+      dc:date "21 Agosto 1798" , "20 Aprile 1799" ;
+      dc:identifier 149 ;
+      dcterms:temporal "1798 Agosto 21 - 1799 Aprile 20" ;
+      edm:begin "21" , "Agosto" , "21 Agosto 1798" , "1798" ;
+      edm:day "21" , "20" ;
+      edm:end "20" , "1799" , "20 Aprile 1799" , "Aprile" ;
+      edm:hasType "intervallo" ;
+      edm:month "Agosto" , "Aprile" ;
+      edm:year "1799" , "1798" ;
+      skos:prefLabel "date #149" .
+
+<http://localhost:2020/resource/oggetti/171>
+      a       pico:beni_archivistici ;
+      rdfs:label "Maestro per le armate francesi 1799" ;
+      dc:identifier 171 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #171" .
+
+pico:serie_archivistiche
+      a       rdf:Property ;
+      rdfs:label "oggetti serie" .
+
+<http://localhost:2020/resource/persone/26>
+      a       foaf:person ;
+      rdf:label "persone #26" ;
+      dc:identifier 26 ;
+      foaf:name "Jo. Bart. Capillano" .
+
+<http://localhost:2020/resource/persone/14>
+      a       foaf:person ;
+      rdf:label "persone #14" ;
+      dc:identifier 14 ;
+      foaf:name "Cesare Rubeo" .
+
+<http://localhost:2020/resource/oggetti/195>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 195 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/153> ;
+      skos:prefLabel "oggetti #195" .
+
+<http://localhost:2020/resource/oggetti/183>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro del Monte di pietÃ  della mag[nifi]ca CommunitÃ  di Nove signato B..." ;
+      dc:identifier 183 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/102> ;
+      skos:prefLabel "oggetti #183" .
+
+skos:prefLabel
+      a       rdf:Property .
+
+<http://localhost:2020/resource/date/90>
+      a       dc:date ;
+      dc:identifier 90 ;
+      dcterms:temporal "1636 - 1639" ;
+      edm:begin "1636" ;
+      edm:end "1639" ;
+      edm:hasType "intervallo" ;
+      edm:year "1636" , "1639" ;
+      skos:prefLabel "date #90" .
+
+<http://localhost:2020/resource/date/102>
+      a       dc:date ;
+      dc:identifier 102 ;
+      dcterms:temporal "1670 - 1681" ;
+      edm:begin "1670" ;
+      edm:end "1681" ;
+      edm:hasType "intervallo" ;
+      edm:year "1670" , "1681" ;
+      skos:prefLabel "date #102" .
+
+<http://localhost:2020/resource/date/114>
+      a       dc:date ;
+      dc:identifier 114 ;
+      dcterms:temporal "1724 - 1797" ;
+      edm:begin "1724" ;
+      edm:end "1797" ;
+      edm:hasType "intervallo" ;
+      edm:year "1797" , "1724" ;
+      skos:prefLabel "date #114" .
+
+<http://localhost:2020/resource/date/126>
+      a       dc:date ;
+      dc:identifier 126 ;
+      dcterms:temporal "1769 - 1796" ;
+      edm:begin "1769" ;
+      edm:end "1796" ;
+      edm:hasType "intervallo" ;
+      edm:year "1796" , "1769" ;
+      skos:prefLabel "date #126" .
+
+<http://localhost:2020/resource/date/138>
+      a       dc:date ;
+      dc:identifier 138 ;
+      dcterms:temporal "1795 - 1799" ;
+      edm:begin "1795" ;
+      edm:end "1799" ;
+      edm:hasType "intervallo" ;
+      edm:year "1795" , "1799" ;
+      skos:prefLabel "date #138" .
+
+<http://localhost:2020/resource/oggetti/182>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro inventario dei beni dati in pegno" ;
+      dc:identifier 182 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/99> ;
+      skos:prefLabel "oggetti #182" .
+
+<http://localhost:2020/resource/oggetti/170>
+      a       pico:beni_archivistici ;
+      rdfs:label "Maestro per le armate austriache 1799" ;
+      dc:identifier 170 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #170" .
+
+pico:beni_archivistici
+      a       rdfs:Class ;
+      rdfs:label "oggetti" .
+
+<http://localhost:2020/resource/persone/25>
+      a       foaf:person ;
+      rdf:label "persone #25" ;
+      dc:identifier 25 ;
+      foaf:name "Paolo Bononis" .
+
+<http://localhost:2020/resource/persone/13>
+      a       foaf:person ;
+      rdf:label "persone #13" ;
+      dc:identifier 13 ;
+      foaf:name "Giovanni Battista Rosotti" .
+
+<http://localhost:2020/resource/oggetti/194>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro dell'introito et esito de censi, limosine e spese per l'hereditÃ  della Beatrice de Giudici" ;
+      dc:identifier 194 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              17 ;
+      edm:occurredAt <http://localhost:2020/resource/date/115> ;
+      skos:prefLabel "oggetti #194" ;
+      skos:related <http://localhost:2020/resource/persone/20> .
+
+<http://localhost:2020/resource/oggetti/93>
+      a       pico:beni_archivistici ;
+      rdfs:label "Avvenimenti politici" ;
+      dc:identifier 93 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #93" .
+
+<http://localhost:2020/resource/date/111>
+      a       dc:date ;
+      dc:identifier 111 ;
+      dcterms:temporal "1718 - 1732" ;
+      edm:begin "1718" ;
+      edm:end "1732" ;
+      edm:hasType "intervallo" ;
+      edm:year "1732" , "1718" ;
+      skos:prefLabel "date #111" .
+
+<http://localhost:2020/resource/date/123>
+      a       dc:date ;
+      dc:identifier 123 ;
+      dcterms:temporal "1761 - 1771" ;
+      edm:begin "1761" ;
+      edm:end "1771" ;
+      edm:hasType "intervallo" ;
+      edm:year "1761" , "1771" ;
+      skos:prefLabel "date #123" .
+
+<http://localhost:2020/resource/date/93>
+      a       dc:date ;
+      dc:identifier 93 ;
+      dcterms:temporal "1646 - 1700" ;
+      edm:begin "1646" ;
+      edm:end "1700" ;
+      edm:hasType "intervallo" ;
+      edm:year "1646" , "1700" ;
+      skos:prefLabel "date #93" .
+
+<http://localhost:2020/resource/date/81>
+      a       dc:date ;
+      dc:identifier 81 ;
+      dcterms:temporal "1614 - 1620" ;
+      edm:begin "1614" ;
+      edm:end "1620" ;
+      edm:hasType "intervallo" ;
+      edm:year "1614" , "1620" ;
+      skos:prefLabel "date #81" .
+
+<http://localhost:2020/resource/oggetti/81>
+      a       pico:beni_archivistici ;
+      rdfs:label "Finanza e demanio" ;
+      dc:identifier 81 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/45> ;
+      skos:prefLabel "oggetti #81" .
+
+<http://localhost:2020/resource/persone/7>
+      a       foaf:person ;
+      rdf:label "persone #7" ;
+      dc:identifier 7 ;
+      foaf:name "Alberto Cavana" .
+
+<http://localhost:2020/resource/date/135>
+      a       dc:date ;
+      dc:identifier 135 ;
+      dcterms:temporal "1790 - 1797" ;
+      edm:begin "1790" ;
+      edm:end "1797" ;
+      edm:hasType "intervallo" ;
+      edm:year "1797" , "1790" ;
+      skos:prefLabel "date #135" .
+
+<http://localhost:2020/resource/date/147>
+      a       dc:date ;
+      dc:identifier 147 ;
+      dcterms:temporal "1798 - 1799" ;
+      edm:begin "1798" ;
+      edm:end "1799" ;
+      edm:hasType "intervallo" ;
+      edm:year "1799" , "1798" ;
+      skos:prefLabel "date #147" .
+
+<http://localhost:2020/resource/oggetti/3>
+      a       pico:beni_archivistici ;
+      rdfs:label "Convenzione con la cittÃ  di Genova del 1135" ;
+      dc:identifier 3 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/1> ;
+      edm:occurredAt <http://localhost:2020/resource/date/38> ;
+      skos:prefLabel "oggetti #3" .
+
+<http://localhost:2020/resource/date/159>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/XIX_secolo> ;
+      dc:identifier 159 ;
+      edm:hasType "letterale" ;
+      edm:year "XIX secolo" ;
+      skos:prefLabel "date #159" .
+
+<http://localhost:2020/resource/oggetti/193>
+      a       pico:beni_archivistici ;
+      rdfs:label "Perticato di Nove di terreni del sig. Franco Spinola quondam NicolÃ²" ;
+      dc:identifier 193 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              17 ;
+      edm:occurredAt <http://localhost:2020/resource/date/110> ;
+      skos:prefLabel "oggetti #193" ;
+      skos:related <http://localhost:2020/resource/persone/19> .
+
+<http://localhost:2020/resource/oggetti/181>
+      a       pico:beni_archivistici ;
+      rdfs:label "Terso libro del Monte di pietÃ  di Nove. A" ;
+      dc:identifier 181 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/94> ;
+      skos:prefLabel "oggetti #181" .
+
+<http://localhost:2020/resource/persone/24>
+      a       foaf:person ;
+      rdf:label "persone #24" ;
+      dc:identifier 24 ;
+      foaf:name "Seebastianus Oliverius" .
+
+<http://localhost:2020/resource/persone/12>
+      a       foaf:person ;
+      rdf:label "persone #12" ;
+      dc:identifier 12 ;
+      owl:sameAs <https://lobid.org/gnd/1151967343> , <https://viaf.org/viaf/6829151837996120520000> ;
+      foaf:name "Paganino Capurri" .
+
+<http://localhost:2020/resource/oggetti/94>
+      a       pico:beni_archivistici ;
+      rdfs:label "Comizi elettorali" ;
+      dc:identifier 94 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #94" .
+
+<http://localhost:2020/resource/oggetti/82>
+      a       pico:beni_archivistici ;
+      rdfs:label "Annona e mercuriali" ;
+      dc:identifier 82 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #82" .
+
+<http://localhost:2020/resource/date/100>
+      a       dc:date ;
+      dc:identifier 100 ;
+      dcterms:temporal "1664 - 1665" ;
+      edm:begin "1664" ;
+      edm:end "1665" ;
+      edm:hasType "intervallo" ;
+      edm:year "1664" , "1665" ;
+      skos:prefLabel "date #100" .
+
+<http://localhost:2020/resource/date/112>
+      a       dc:date ;
+      dc:identifier 112 ;
+      dcterms:temporal "1722 - 1723" ;
+      edm:begin "1722" ;
+      edm:end "1723" ;
+      edm:hasType "intervallo" ;
+      edm:year "1723" , "1722" ;
+      skos:prefLabel "date #112" .
+
+<http://localhost:2020/resource/date/92>
+      a       dc:date ;
+      dc:identifier 92 ;
+      dcterms:temporal "1638 - 1690" ;
+      edm:begin "1638" ;
+      edm:end "1690" ;
+      edm:hasType "intervallo" ;
+      edm:year "1638" , "1690" ;
+      skos:prefLabel "date #92" .
+
+<http://localhost:2020/resource/oggetti/70>
+      a       pico:beni_archivistici ;
+      rdfs:label "Giornale dei conti" ;
+      dc:identifier 70 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #70" .
+
+<http://localhost:2020/resource/date/80>
+      a       dc:date ;
+      dc:date "27 Agosto 1612" , "24 Novembre 1612" ;
+      dc:identifier 80 ;
+      dcterms:temporal "1612 Agosto 27 - 1612 Novembre 24" ;
+      edm:begin "1612" , "Agosto" , "27 Agosto 1612" , "27" ;
+      edm:day "27" , "24" ;
+      edm:end "1612" , "24 Novembre 1612" , "Novembre" , "24" ;
+      edm:hasType "intervallo" ;
+      edm:month "Agosto" , "Novembre" ;
+      edm:year "1612" ;
+      skos:prefLabel "date #80" .
+
+<http://localhost:2020/resource/persone/8>
+      a       foaf:person ;
+      rdf:label "persone #8" ;
+      dc:identifier 8 ;
+      foaf:name "Jacomo Gianelli" .
+
+<http://localhost:2020/resource/date/124>
+      a       dc:date ;
+      dc:date "3 Giugno 1765" , "23 Aprile 1777" ;
+      dc:identifier 124 ;
+      dcterms:temporal "1765 Giugno 3 - 1777 Aprile 23" ;
+      edm:begin "Giugno" , "1765" , "3 Giugno 1765" , "3" ;
+      edm:day "3" , "23" ;
+      edm:end "1777" , "Aprile" , "23 Aprile 1777" , "23" ;
+      edm:hasType "intervallo" ;
+      edm:month "Giugno" , "Aprile" ;
+      edm:year "1777" , "1765" ;
+      skos:prefLabel "date #124" .
+
+<http://localhost:2020/resource/date/136>
+      a       dc:date ;
+      dc:identifier 136 ;
+      dcterms:temporal "1790 - 1799" ;
+      edm:begin "1790" ;
+      edm:end "1799" ;
+      edm:hasType "intervallo" ;
+      edm:year "1799" , "1790" ;
+      skos:prefLabel "date #136" .
+
+<http://localhost:2020/resource/date/148>
+      a       dc:date ;
+      dc:identifier 148 ;
+      dcterms:temporal "1798 - 1802" ;
+      edm:begin "1798" ;
+      edm:end "1802" ;
+      edm:hasType "intervallo" ;
+      edm:year "1798" , "1802" ;
+      skos:prefLabel "date #148" .
+
+<http://localhost:2020/resource/oggetti/2>
+      a       pico:beni_archivistici ;
+      rdfs:label "Statutorum civilium insignis oppidi Novarum dominii genuensis nuper impessorum libri tres cum indice rubricarum &amp; nonnullis decretis &amp; iuribus ad universitatem eiusdem oppidi &amp; illius regimen pertinentibus" ;
+      dc:identifier 2 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "volume" , <http://it.dbpedia.org/property/volume> ;
+      pico:serie_archivistiche
+              1 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/1> ;
+      edm:occurredAt <http://localhost:2020/resource/date/25> ;
+      skos:prefLabel "oggetti #2" .
+
+<http://localhost:2020/resource/oggetti/192>
+      a       pico:beni_archivistici ;
+      rdfs:label "Blancorum familia universam italiam extensa" ;
+      dc:identifier 192 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              17 ;
+      edm:occurredAt <http://localhost:2020/resource/date/154> ;
+      skos:prefLabel "oggetti #192" .
+
+<http://localhost:2020/resource/oggetti/180>
+      a       pico:beni_archivistici ;
+      rdfs:label "Fondazione del Monte di pietÃ  di Novi" ;
+      dc:identifier 180 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              16 ;
+      edm:occurredAt <http://localhost:2020/resource/date/78> ;
+      skos:prefLabel "oggetti #180" .
+
+<http://localhost:2020/resource/persone/23>
+      a       foaf:person ;
+      rdf:label "persone #23" ;
+      dc:identifier 23 ;
+      foaf:name "Ioannis Roderici" .
+
+<http://localhost:2020/resource/persone/11>
+      a       foaf:person ;
+      rdf:label "persone #11" ;
+      dc:identifier 11 ;
+      owl:sameAs <https://viaf.org/viaf/221965530> , <https://lobid.org/gnd/121994724> , <http://it.dbpedia.org/resource/Pietro_Strozzi> ;
+      foaf:name "Pietro Strozzi" .
+
+<http://localhost:2020/resource/date/121>
+      a       dc:date ;
+      dc:identifier 121 ;
+      dcterms:temporal "1756 - 1794" ;
+      edm:begin "1756" ;
+      edm:end "1794" ;
+      edm:hasType "intervallo" ;
+      edm:year "1794" , "1756" ;
+      skos:prefLabel "date #121" .
+
+<http://localhost:2020/resource/date/95>
+      a       dc:date ;
+      dc:identifier 95 ;
+      dcterms:temporal "1656 - 1657" ;
+      edm:begin "1656" ;
+      edm:end "1657" ;
+      edm:hasType "intervallo" ;
+      edm:year "1656" , "1657" ;
+      skos:prefLabel "date #95" .
+
+<http://localhost:2020/resource/date/133>
+      a       dc:date ;
+      dc:identifier 133 ;
+      dcterms:temporal "1788 - 1791" ;
+      edm:begin "1788" ;
+      edm:end "1791" ;
+      edm:hasType "intervallo" ;
+      edm:year "1788" , "1791" ;
+      skos:prefLabel "date #133" .
+
+<http://localhost:2020/resource/date/83>
+      a       dc:date ;
+      dc:date "23 Aprile 1617" , "25 Agosto 1617" ;
+      dc:identifier 83 ;
+      dcterms:temporal "1617 Aprile 23 - 1617 Agosto 25" ;
+      edm:begin "23 Aprile 1617" , "Aprile" , "1617" , "23" ;
+      edm:day "25" , "23" ;
+      edm:end "Agosto" , "25 Agosto 1617" , "25" , "1617" ;
+      edm:hasType "intervallo" ;
+      edm:month "Agosto" , "Aprile" ;
+      edm:year "1617" ;
+      skos:prefLabel "date #83" .
+
+<http://localhost:2020/resource/date/145>
+      a       dc:date ;
+      dc:date "3 Settembre 1797" , "14 Giugno 1797" ;
+      dc:identifier 145 ;
+      dcterms:temporal "1797 Giugno 14 - 1797 Settembre 3" ;
+      edm:begin "1797" , "Giugno" , "14 Giugno 1797" , "14" ;
+      edm:day "3" , "14" ;
+      edm:end "1797" , "3 Settembre 1797" , "Settembre" , "3" ;
+      edm:hasType "intervallo" ;
+      edm:month "Giugno" , "Settembre" ;
+      edm:year "1797" ;
+      skos:prefLabel "date #145" .
+
+<http://localhost:2020/resource/date/71>
+      a       dc:date ;
+      dc:identifier 71 ;
+      dcterms:temporal "1599 - 1654" ;
+      edm:begin "1599" ;
+      edm:end "1654" ;
+      edm:hasType "intervallo" ;
+      edm:year "1599" , "1654" ;
+      skos:prefLabel "date #71" .
+
+<http://localhost:2020/resource/oggetti/91>
+      a       pico:beni_archivistici ;
+      rdfs:label "Petizioni e istanze" ;
+      dc:identifier 91 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/138> ;
+      skos:prefLabel "oggetti #91" .
+
+<http://localhost:2020/resource/persone/9>
+      a       foaf:person ;
+      rdf:label "persone #9" ;
+      dc:identifier 9 ;
+      owl:sameAs <https://viaf.org/viaf/88833740> ;
+      foaf:name "Ottavio Cattaneo" .
+
+<http://localhost:2020/resource/oggetti/1>
+      a       pico:beni_archivistici ;
+      rdfs:label "Statutorum civilium insignis oppidi Novarum dominii genuensis nuper impessorum libri tres cum indice rubricarum &amp; nonnullis decretis &amp; iuribus ad universitatem eiusdem oppidi &amp; illius regimen pertinentibus" ;
+      dc:identifier 1 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "volume" , <http://it.dbpedia.org/property/volume> ;
+      pico:serie_archivistiche
+              1 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/1> ;
+      edm:occurredAt <http://localhost:2020/resource/date/25> ;
+      skos:prefLabel "oggetti #1" .
+
+<http://localhost:2020/resource/date/157>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/XVII_secolo> ;
+      dc:identifier 157 ;
+      edm:hasType "letterale" ;
+      edm:year "XVII secolo" ;
+      skos:prefLabel "date #157" .
+
+<http://localhost:2020/resource/oggetti/191>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lasciapassare consegnati dalla ComunitÃ  di Sestri ai mulattieri Benedetto Carega e Giovanni Cavana per il trasporto di barili d'olio" ;
+      dc:identifier 191 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              17 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/14> ;
+      edm:occurredAt <http://localhost:2020/resource/date/33> ;
+      skos:prefLabel "oggetti #191" ;
+      skos:related <http://localhost:2020/resource/persone/18> , <http://localhost:2020/resource/persone/17> .
+
+<http://localhost:2020/resource/persone/22>
+      a       foaf:person ;
+      rdf:label "persone #22" ;
+      dc:identifier 22 ;
+      foaf:name "Ioannis Pauli Blanci" .
+
+<http://localhost:2020/resource/persone/10>
+      a       foaf:person ;
+      rdf:label "persone #10" ;
+      dc:identifier 10 ;
+      foaf:name "Clemente Vaccari" .
+
+<http://localhost:2020/resource/date/110>
+      a       dc:date ;
+      dc:identifier 110 ;
+      dcterms:temporal "1712 - 1758" ;
+      edm:begin "1712" ;
+      edm:end "1758" ;
+      edm:hasType "intervallo" ;
+      edm:year "1712" , "1758" ;
+      skos:prefLabel "date #110" .
+
+<http://localhost:2020/resource/date/122>
+      a       dc:date ;
+      dc:date "1 Marzo 1765" , "19 Giugno 1756" ;
+      dc:identifier 122 ;
+      dcterms:temporal "1756 Giugno 19 - 1765 Marzo 1" ;
+      edm:begin "Giugno" , "1756" , "19" , "19 Giugno 1756" ;
+      edm:day "19" , "1" ;
+      edm:end "1 Marzo 1765" , "1765" , "Marzo" , "1" ;
+      edm:hasType "intervallo" ;
+      edm:month "Giugno" , "Marzo" ;
+      edm:year "1756" , "1765" ;
+      skos:prefLabel "date #122" .
+
+<http://localhost:2020/resource/date/94>
+      a       dc:date ;
+      dc:identifier 94 ;
+      dcterms:temporal "1654 - 1669" ;
+      edm:begin "1654" ;
+      edm:end "1669" ;
+      edm:hasType "intervallo" ;
+      edm:year "1669" , "1654" ;
+      skos:prefLabel "date #94" .
+
+<http://localhost:2020/resource/date/134>
+      a       dc:date ;
+      dc:identifier 134 ;
+      dcterms:temporal "1789 - 1806" ;
+      edm:begin "1789" ;
+      edm:end "1806" ;
+      edm:hasType "intervallo" ;
+      edm:year "1789" , "1806" ;
+      skos:prefLabel "date #134" .
+
+<http://localhost:2020/resource/date/82>
+      a       dc:date ;
+      dc:date "13 Ottobre 1616" ;
+      dc:identifier 82 ;
+      dcterms:temporal "1616 - 1617" ;
+      edm:begin "Ottobre" , "13 Ottobre 1616" , "1616" , "13" ;
+      edm:day "13" ;
+      edm:end "1617" ;
+      edm:hasType "intervallo" ;
+      edm:month "Ottobre" ;
+      edm:year "1616" , "1617" ;
+      skos:prefLabel "date #82" .
+
+<http://localhost:2020/resource/date/70>
+      a       dc:date ;
+      dc:identifier 70 ;
+      dcterms:temporal "1594 - 1611" ;
+      edm:begin "1594" ;
+      edm:end "1611" ;
+      edm:hasType "intervallo" ;
+      edm:year "1611" , "1594" ;
+      skos:prefLabel "date #70" .
+
+<http://localhost:2020/resource/oggetti/92>
+      a       pico:beni_archivistici ;
+      rdfs:label "Carteggio dei rappresentanti la CittÃ  e il Comune di Novi presso la Amministrazione centrale in Genova..." ;
+      dc:identifier 92 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/1> ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #92" .
+
+<http://localhost:2020/resource/oggetti/80>
+      a       pico:beni_archivistici ;
+      rdfs:label "Rendite comunali. Gabelle comunali e panvenale..." ;
+      dc:identifier 80 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Quaderno> , "Quaderno" ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/11> ;
+      skos:prefLabel "oggetti #80" .
+
+<http://localhost:2020/resource/date/146>
+      a       dc:date ;
+      dc:date "11 Settembre 1797" , "12 Febbraio 1800" ;
+      dc:identifier 146 ;
+      dcterms:temporal "1797 Settembre 11 - 1800 Febbraio 12" ;
+      edm:begin "1797" , "11" , "11 Settembre 1797" , "Settembre" ;
+      edm:day "11" , "12" ;
+      edm:end "Febbraio" , "1800" , "12 Febbraio 1800" , "12" ;
+      edm:hasType "intervallo" ;
+      edm:month "Febbraio" , "Settembre" ;
+      edm:year "1797" , "1800" ;
+      skos:prefLabel "date #146" .
+
+<http://localhost:2020/resource/date/158>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/XVIII_secolo> ;
+      dc:identifier 158 ;
+      edm:hasType "letterale" ;
+      edm:year "XVIII secolo" ;
+      skos:prefLabel "date #158" .
+
+<http://localhost:2020/resource/oggetti/190>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro dell'amministratione de beni d'Isabetta e Camilla figliuole et eredi del quondam Jacomo Bosio" ;
+      dc:identifier 190 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              17 ;
+      edm:occurredAt <http://localhost:2020/resource/date/69> ;
+      skos:prefLabel "oggetti #190" ;
+      skos:related <http://localhost:2020/resource/persone/16> .
+
+<http://localhost:2020/resource/persone/3>
+      a       foaf:person ;
+      rdf:label "persone #3" ;
+      dc:identifier 3 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Duchi_di_Milano> ;
+      foaf:name "duchi di Milano" .
+
+<http://localhost:2020/resource/date/18>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1544> ;
+      dc:identifier 18 ;
+      edm:hasType "anno" ;
+      edm:year "1544" ;
+      skos:prefLabel "date #18" .
+
+<http://localhost:2020/resource/oggetti/98>
+      a       pico:beni_archivistici ;
+      rdfs:label "Maestro per la fabbrica delle pubbliche scuole" ;
+      dc:identifier 98 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              10 ;
+      edm:occurredAt <http://localhost:2020/resource/date/132> ;
+      skos:prefLabel "oggetti #98" .
+
+<http://localhost:2020/resource/oggetti/86>
+      a       pico:beni_archivistici ;
+      rdfs:label "Istruzione relativa alle taglie" ;
+      dc:identifier 86 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/4> ;
+      skos:prefLabel "oggetti #86" .
+
+<http://localhost:2020/resource/oggetti/61>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro Maestro B della Mag[nifica] ComunitÃ  di Novi" ;
+      dc:identifier 61 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/128> ;
+      skos:prefLabel "oggetti #61" .
+
+<http://localhost:2020/resource/date/131>
+      a       dc:date ;
+      dc:date "26 Giugno 1796" , "1 Maggio 1777" ;
+      dc:identifier 131 ;
+      dcterms:temporal "1777 Maggio 1 - 1796 Giugno 26" ;
+      edm:begin "1 Maggio 1777" , "1777" , "Maggio" , "1" ;
+      edm:day "26" , "1" ;
+      edm:end "1796" , "26 Giugno 1796" , "Giugno" , "26" ;
+      edm:hasType "intervallo" ;
+      edm:month "Giugno" , "Maggio" ;
+      edm:year "1796" , "1777" ;
+      skos:prefLabel "date #131" .
+
+<http://localhost:2020/resource/date/143>
+      a       dc:date ;
+      dc:identifier 143 ;
+      dcterms:temporal "1797 - 1800" ;
+      edm:begin "1797" ;
+      edm:end "1800" ;
+      edm:hasType "intervallo" ;
+      edm:year "1797" , "1800" ;
+      skos:prefLabel "date #143" .
+
+<http://localhost:2020/resource/oggetti/85>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti del Consiglio" ;
+      dc:identifier 85 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/20> ;
+      skos:prefLabel "oggetti #85" .
+
+<http://localhost:2020/resource/date/155>
+      a       dc:date ;
+      dc:identifier 155 ;
+      dcterms:temporal "XVII sec. - XVIII sec." ;
+      edm:begin "XVII secolo" ;
+      edm:end "XVIII secolo" ;
+      edm:hasType "intervallo" ;
+      edm:year "XVII secolo" , "XVIII secolo" ;
+      skos:prefLabel "date #155" .
+
+<http://localhost:2020/resource/oggetti/73>
+      a       pico:beni_archivistici ;
+      rdfs:label "Allegati ai conti" ;
+      dc:identifier 73 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/117> ;
+      skos:prefLabel "oggetti #73" .
+
+<http://localhost:2020/resource/date/17>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1527> ;
+      dc:identifier 17 ;
+      edm:hasType "anno" ;
+      edm:year "1527" ;
+      skos:prefLabel "date #17" .
+
+<http://localhost:2020/resource/persone/4>
+      a       foaf:person ;
+      rdf:label "persone #4" ;
+      dc:identifier 4 ;
+      foaf:name "M. Agost.o Rosso" .
+
+<http://localhost:2020/resource/date/29>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1641> ;
+      dc:identifier 29 ;
+      edm:hasType "anno" ;
+      edm:year "1641" ;
+      skos:prefLabel "date #29" .
+
+<http://localhost:2020/resource/oggetti/87>
+      a       pico:beni_archivistici ;
+      rdfs:label "Grida, proclami, ordini e disposizioni della cittÃ  di Novi" ;
+      dc:identifier 87 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/64> ;
+      skos:prefLabel "oggetti #87" .
+
+<http://localhost:2020/resource/oggetti/75>
+      a       pico:beni_archivistici ;
+      rdfs:label "Conti e mandati" ;
+      dc:identifier 75 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/134> ;
+      skos:prefLabel "oggetti #75" .
+
+<http://localhost:2020/resource/oggetti/99>
+      a       pico:beni_archivistici ;
+      rdfs:label "Istoria delle febbri epidemiche che corsero nella CittÃ  di Novi l'anno MDCCLXXXIII descritta dal dottor Paganino Capurri medico primario di quella CittÃ " ;
+      dc:identifier 99 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Opuscolo> , "Opuscolo" ;
+      pico:serie_archivistiche
+              10 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/2> ;
+      edm:occurredAt <http://localhost:2020/resource/date/43> ;
+      skos:prefLabel "oggetti #99" ;
+      skos:related <http://localhost:2020/resource/persone/12> .
+
+<http://localhost:2020/resource/oggetti/50>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere diverse" ;
+      dc:identifier 50 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #50" .
+
+<http://localhost:2020/resource/date/120>
+      a       dc:date ;
+      dc:identifier 120 ;
+      dcterms:temporal "1756 - 1774" ;
+      edm:begin "1756" ;
+      edm:end "1774" ;
+      edm:hasType "intervallo" ;
+      edm:year "1774" , "1756" ;
+      skos:prefLabel "date #120" .
+
+<http://localhost:2020/resource/date/132>
+      a       dc:date ;
+      dc:identifier 132 ;
+      dcterms:temporal "1781 - 1785" ;
+      edm:begin "1781" ;
+      edm:end "1785" ;
+      edm:hasType "intervallo" ;
+      edm:year "1785" , "1781" ;
+      skos:prefLabel "date #132" .
+
+<http://localhost:2020/resource/oggetti/74>
+      a       pico:beni_archivistici ;
+      rdfs:label "Filza delle scritture concernenti li debitori ... della Magnifica ComunitÃ  di Novi" ;
+      dc:identifier 74 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/121> ;
+      skos:prefLabel "oggetti #74" .
+
+<http://localhost:2020/resource/date/144>
+      a       dc:date ;
+      dc:identifier 144 ;
+      dcterms:temporal "1797 - 1801" ;
+      edm:begin "1797" ;
+      edm:end "1801" ;
+      edm:hasType "intervallo" ;
+      edm:year "1797" , "1801" ;
+      skos:prefLabel "date #144" .
+
+<http://localhost:2020/resource/oggetti/62>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro mastro dei conti" ;
+      dc:identifier 62 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/135> ;
+      skos:prefLabel "oggetti #62" .
+
+<http://localhost:2020/resource/date/156>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/XIX_secolo> ;
+      dc:identifier 156 ;
+      edm:hasType "letterale" ;
+      edm:year "XIX secolo" ;
+      skos:prefLabel "date #156" .
+
+<http://localhost:2020/resource/date/1>
+      a       dc:date ;
+      dc:date "20 luglio 1555" ;
+      dc:identifier 1 ;
+      edm:day "20" ;
+      edm:hasType "giorno" ;
+      edm:month "Luglio" ;
+      edm:year "1555" ;
+      skos:prefLabel "date #1" .
+
+<http://localhost:2020/resource/date/28>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1638> ;
+      dc:identifier 28 ;
+      edm:hasType "anno" ;
+      edm:year "1638" ;
+      skos:prefLabel "date #28" .
+
+<http://localhost:2020/resource/date/16>
+      a       dc:date ;
+      dc:date "20 aprile 1799" ;
+      dc:identifier 16 ;
+      edm:day "20" ;
+      edm:hasType "giorno" ;
+      edm:month "Aprile" ;
+      edm:year "1799" ;
+      skos:prefLabel "date #16" .
+
+<http://localhost:2020/resource/persone/5>
+      a       foaf:person ;
+      rdf:label "persone #5" ;
+      dc:identifier 5 ;
+      foaf:name "Nicolao Bovone" .
+
+owl:sameAs
+      a       rdf:Property ;
+      rdfs:label "persone DBpedia_link" , "luoghi GND_link" , "persone GND_link" , "luoghi Wikidata_link" , "luoghi DBpedia_link" , "persone VIAF_link" .
+
+<http://localhost:2020/resource/oggetti/83>
+      a       pico:beni_archivistici ;
+      rdfs:label "Sali e tabacchi" ;
+      dc:identifier 83 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/143> ;
+      skos:prefLabel "oggetti #83" .
+
+<http://localhost:2020/resource/date/153>
+      a       dc:date ;
+      dc:identifier 153 ;
+      dcterms:temporal "Fine XV sec. - Inizio XVI sec." ;
+      edm:begin "XV secolo" ;
+      edm:end "XVI secolo" ;
+      edm:hasType "intervallo" ;
+      edm:year "XV secolo" , "XVI secolo" ;
+      skos:prefLabel "date #153" .
+
+<http://localhost:2020/resource/oggetti/71>
+      a       pico:beni_archivistici ;
+      rdfs:label "Imposte e decime" ;
+      dc:identifier 71 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/57> ;
+      skos:prefLabel "oggetti #71" .
+
+<http://localhost:2020/resource/oggetti/209>
+      a       pico:beni_archivistici ;
+      rdfs:label "Notulario del notaio Jo. Bart. Capillano" ;
+      dc:identifier 209 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/81> ;
+      skos:prefLabel "oggetti #209" ;
+      skos:related <http://localhost:2020/resource/persone/26> .
+
+<http://localhost:2020/resource/oggetti/95>
+      a       pico:beni_archivistici ;
+      rdfs:label "FestivitÃ  nazionali" ;
+      dc:identifier 95 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #95" .
+
+<http://localhost:2020/resource/date/2>
+      a       dc:date ;
+      dc:date "30 settembre 1559" ;
+      dc:identifier 2 ;
+      edm:day "30" ;
+      edm:hasType "giorno" ;
+      edm:month "Settembre" ;
+      edm:year "1559" ;
+      skos:prefLabel "date #2" .
+
+<http://localhost:2020/resource/date/141>
+      a       dc:date ;
+      dc:identifier 141 ;
+      dcterms:temporal "1797 - 1798" ;
+      edm:begin "1797" ;
+      edm:end "1798" ;
+      edm:hasType "intervallo" ;
+      edm:year "1797" , "1798" ;
+      skos:prefLabel "date #141" .
+
+rdf:label
+      a       rdf:Property .
+
+<http://localhost:2020/resource/persone/6>
+      a       foaf:person ;
+      rdf:label "persone #6" ;
+      dc:identifier 6 ;
+      foaf:name "Petro Giorgio" .
+
+<http://localhost:2020/resource/date/19>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1549> ;
+      dc:identifier 19 ;
+      edm:hasType "anno" ;
+      edm:year "1549" ;
+      skos:prefLabel "date #19" .
+
+<http://localhost:2020/resource/oggetti/97>
+      a       pico:beni_archivistici ;
+      rdfs:label "SanitÃ " ;
+      dc:identifier 97 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              10 ;
+      edm:occurredAt <http://localhost:2020/resource/date/130> ;
+      skos:prefLabel "oggetti #97" .
+
+<http://localhost:2020/resource/oggetti/208>
+      a       pico:beni_archivistici ;
+      rdfs:label "Notulario del notaio Paolo Bononis" ;
+      dc:identifier 208 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/26> ;
+      skos:prefLabel "oggetti #208" ;
+      skos:related <http://localhost:2020/resource/persone/25> .
+
+<http://localhost:2020/resource/oggetti/72>
+      a       pico:beni_archivistici ;
+      rdfs:label "Imposizioni, tasse e gabelle" ;
+      dc:identifier 72 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/116> ;
+      skos:prefLabel "oggetti #72" .
+
+<http://localhost:2020/resource/date/142>
+      a       dc:date ;
+      dc:identifier 142 ;
+      dcterms:temporal "1797 - 1799" ;
+      edm:begin "1797" ;
+      edm:end "1799" ;
+      edm:hasType "intervallo" ;
+      edm:year "1797" , "1799" ;
+      skos:prefLabel "date #142" .
+
+<http://localhost:2020/resource/oggetti/60>
+      a       pico:beni_archivistici ;
+      rdfs:label "1756. Debitori e creditori residuari della M[agnifi]ca CommunitÃ  di Novi per le contribuzioni pagate ed aggravi sofferti dal 1745 al 1749" ;
+      dc:identifier 60 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/120> ;
+      skos:prefLabel "oggetti #60" .
+
+<http://localhost:2020/resource/date/154>
+      a       dc:date ;
+      dc:identifier 154 ;
+      dcterms:temporal "Fine XVII sec. - Inizio XVIII sec." ;
+      edm:begin "XVII secolo" ;
+      edm:end "XVIII secolo" ;
+      edm:hasType "intervallo" ;
+      edm:year "XVII secolo" , "XVIII secolo" ;
+      skos:prefLabel "date #154" .
+
+<http://localhost:2020/resource/oggetti/96>
+      a       pico:beni_archivistici ;
+      rdfs:label "Tribunale di commercio" ;
+      dc:identifier 96 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #96" .
+
+<http://localhost:2020/resource/oggetti/84>
+      a       pico:beni_archivistici ;
+      rdfs:label "Sommario della rotta di Pietro Strozzi" ;
+      dc:identifier 84 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/18> ;
+      skos:prefLabel "oggetti #84" ;
+      skos:related <http://localhost:2020/resource/persone/11> .
+
+<http://localhost:2020/resource/date/130>
+      a       dc:date ;
+      dc:identifier 130 ;
+      dcterms:temporal "1775 - 1799" ;
+      edm:begin "1775" ;
+      edm:end "1799" ;
+      edm:hasType "intervallo" ;
+      edm:year "1775" , "1799" ;
+      skos:prefLabel "date #130" .
+
+<http://localhost:2020/resource/date/3>
+      a       dc:date ;
+      dc:date "20 aprile 1561" ;
+      dc:identifier 3 ;
+      edm:day "20" ;
+      edm:hasType "giorno" ;
+      edm:month "Aprile" ;
+      edm:year "1561" ;
+      skos:prefLabel "date #3" .
+
+<http://localhost:2020/resource/oggetti/54>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro nel quale si scrive tutto quello che si fa per la Mag.ca CommunitÃ  di Nove tenuto per mano del cap. Alberto Cavana et Jacomo Gianelli padri del Com.ne" ;
+      dc:identifier 54 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Quaderno> , "Quaderno" ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/74> ;
+      skos:prefLabel "oggetti #54" ;
+      skos:related <http://localhost:2020/resource/persone/8> , <http://localhost:2020/resource/persone/7> .
+
+<http://localhost:2020/resource/oggetti/42>
+      a       pico:beni_archivistici ;
+      rdfs:label "Provvisioni, leggi e ordini" ;
+      dc:identifier 42 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #42" .
+
+<http://localhost:2020/resource/oggetti/78>
+      a       pico:beni_archivistici ;
+      rdfs:label "Conto dell'impresara delle pub[blich]e gabelle 1796 in 1797" ;
+      dc:identifier 78 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/139> ;
+      skos:prefLabel "oggetti #78" .
+
+<http://localhost:2020/resource/oggetti/66>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro delle entrate e delle spese" ;
+      dc:identifier 66 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #66" .
+
+<http://localhost:2020/resource/oggetti/219>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 219 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/32> ;
+      skos:prefLabel "oggetti #219" .
+
+<http://localhost:2020/resource/oggetti/41>
+      a       pico:beni_archivistici ;
+      rdfs:label "Provvisioni, leggi, ordini militari" ;
+      dc:identifier 41 ;
+      dc:language <http://it.dbpedia.org/property/francese> , "francese" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #41" .
+
+<http://localhost:2020/resource/oggetti/207>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 207 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/79> ;
+      skos:prefLabel "oggetti #207" .
+
+<http://localhost:2020/resource/date/151>
+      a       dc:date ;
+      dc:identifier 151 ;
+      dcterms:temporal "1799 - 1800" ;
+      edm:begin "1799" ;
+      edm:end "1800" ;
+      edm:hasType "intervallo" ;
+      edm:year "1800" , "1799" ;
+      skos:prefLabel "date #151" .
+
+<http://localhost:2020/resource/luoghi/15>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Russia" ;
+      dc:identifier 15 ;
+      dcterms:spatial 97.7453E0 , 64.6863E0 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Russia> ;
+      geo:lat 64.6863E0 ;
+      geo:long 97.7453E0 ;
+      skos:prefLabel "luoghi #15" .
+
+<http://localhost:2020/resource/oggetti/79>
+      a       pico:beni_archivistici ;
+      rdfs:label "Conto della Mag[nifi]ca Com[uni]tÃ  per l'amministraz[ione] de S[igno]ri Otta[vi]o Cattaneo e Clem[en]te Vaccari nell' 1796 in 1797" ;
+      dc:identifier 79 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/139> ;
+      skos:prefLabel "oggetti #79" ;
+      skos:related <http://localhost:2020/resource/persone/9> , <http://localhost:2020/resource/persone/10> .
+
+<http://localhost:2020/resource/oggetti/43>
+      a       pico:beni_archivistici ;
+      rdfs:label "Provvisioni, leggi e ordini" ;
+      dc:identifier 43 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #43" .
+
+<http://localhost:2020/resource/oggetti/31>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consulari dal 1 maggio 1777 a tutto il 26 giugno 1796. Volume X" ;
+      dc:identifier 31 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/131> ;
+      skos:prefLabel "oggetti #31" .
+
+<http://localhost:2020/resource/oggetti/67>
+      a       pico:beni_archivistici ;
+      rdfs:label "Quadro attivo e passivo delle spese e prodotti ..." ;
+      dc:identifier 67 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #67" .
+
+<http://localhost:2020/resource/oggetti/55>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro dei conti 1667 - 1668" ;
+      dc:identifier 55 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/101> ;
+      skos:prefLabel "oggetti #55" .
+
+<http://localhost:2020/resource/oggetti/109>
+      a       pico:beni_archivistici ;
+      rdfs:label "Chiesa parrocchiale di S. Giovanni in Garbagna" ;
+      dc:identifier 109 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/9> ;
+      edm:occurredAt <http://localhost:2020/resource/date/3> ;
+      skos:prefLabel "oggetti #109" .
+
+<http://localhost:2020/resource/oggetti/206>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 206 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/71> ;
+      skos:prefLabel "oggetti #206" .
+
+<http://localhost:2020/resource/oggetti/30>
+      a       pico:beni_archivistici ;
+      rdfs:label "Liber Deliberationum Mag[nifi]ci Comunis Novarum, sive Mag[nifi]ci Concilii eiusdem Civitatis anno 1765 in 1766 scribente me Sebas[tian]o Oliverio, not[ai]o e iam anni X cancellario" ;
+      dc:identifier 30 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/124> ;
+      skos:prefLabel "oggetti #30" .
+
+<http://localhost:2020/resource/oggetti/218>
+      a       pico:beni_archivistici ;
+      rdfs:label "Rubriche di notai diversi" ;
+      dc:identifier 218 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/93> ;
+      skos:prefLabel "oggetti #218" .
+
+edm:year
+      a       rdf:Property ;
+      rdfs:label "date anno" , "date anno_finale" , "date anno_iniziale" .
+
+<http://localhost:2020/resource/date/140>
+      a       dc:date ;
+      dc:identifier 140 ;
+      dcterms:temporal "1796 - 1805" ;
+      edm:begin "1796" ;
+      edm:end "1805" ;
+      edm:hasType "intervallo" ;
+      edm:year "1796" , "1805" ;
+      skos:prefLabel "date #140" .
+
+<http://localhost:2020/resource/date/152>
+      a       dc:date ;
+      dc:identifier 152 ;
+      dcterms:temporal "1799 - 1806" ;
+      edm:begin "1799" ;
+      edm:end "1806" ;
+      edm:hasType "intervallo" ;
+      edm:year "1799" , "1806" ;
+      skos:prefLabel "date #152" .
+
+edm:occurredAt
+      a       rdf:Property .
+
+<http://localhost:2020/resource/persone/1>
+      a       foaf:person ;
+      rdf:label "persone #1" ;
+      dc:identifier 1 ;
+      owl:sameAs <https://lobid.org/gnd/100071503> , <https://viaf.org/viaf/47102197> ;
+      foaf:name "Lorenzo Capellono" .
+
+<http://localhost:2020/resource/luoghi/14>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Sestri" ;
+      dc:identifier 14 ;
+      dcterms:spatial 44.4305E0 , 8.85028E0 ;
+      owl:sameAs <https://lobid.org/gnd/1091588-6> , <http://it.dbpedia.org/resource/Sestri_Levante> ;
+      geo:lat 44.4305E0 ;
+      geo:long 8.85028E0 ;
+      skos:prefLabel "luoghi #14" .
+
+<http://localhost:2020/resource/persone/19>
+      a       foaf:person ;
+      rdf:label "persone #19" ;
+      dc:identifier 19 ;
+      owl:sameAs <https://lobid.org/gnd/138075840> ;
+      foaf:name "Franco Spinola" .
+
+<http://localhost:2020/resource/oggetti/76>
+      a       pico:beni_archivistici ;
+      rdfs:label "ContabilitÃ  comunale. Conti d'amministrazione" ;
+      dc:identifier 76 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/137> ;
+      skos:prefLabel "oggetti #76" .
+
+<http://localhost:2020/resource/oggetti/64>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro delle entrate e delle spese" ;
+      dc:identifier 64 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/143> ;
+      skos:prefLabel "oggetti #64" .
+
+<http://localhost:2020/resource/oggetti/88>
+      a       pico:beni_archivistici ;
+      rdfs:label "Grida relativa agli esercizi commerciali e ai pesi e misure" ;
+      dc:identifier 88 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/31> ;
+      skos:prefLabel "oggetti #88" .
+
+<http://localhost:2020/resource/oggetti/108>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro del entrata del Convento dell'anno 1560 in sino il 1586" ;
+      dc:identifier 108 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:occurredAt <http://localhost:2020/resource/date/59> ;
+      skos:prefLabel "oggetti #108" .
+
+<http://localhost:2020/resource/oggetti/217>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 217 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/92> ;
+      skos:prefLabel "oggetti #217" .
+
+<http://localhost:2020/resource/oggetti/63>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro delle entrate e delle spese" ;
+      dc:identifier 63 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #63" .
+
+<http://localhost:2020/resource/oggetti/51>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere diverse" ;
+      dc:identifier 51 ;
+      dcterms:medium "Faldone" , <http://it.dbpedia.org/resource/Faldone> ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/148> ;
+      skos:prefLabel "oggetti #51" .
+
+<http://localhost:2020/resource/oggetti/205>
+      a       pico:beni_archivistici ;
+      rdfs:label "Rubrica dei crediti" ;
+      dc:identifier 205 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/70> ;
+      skos:prefLabel "oggetti #205" .
+
+<http://localhost:2020/resource/date/161>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/XVIII_secolo> ;
+      dc:identifier 161 ;
+      edm:hasType "letterale" ;
+      edm:year "XVIII secolo" ;
+      skos:prefLabel "date #161" .
+
+<http://localhost:2020/resource/persone/2>
+      a       foaf:person ;
+      rdf:label "persone #2" ;
+      dc:identifier 2 ;
+      foaf:name "Ercole Spinola" .
+
+dc:coverage
+      a       rdfs:Class ;
+      rdfs:label "luoghi" .
+
+<http://localhost:2020/resource/persone/18>
+      a       foaf:person ;
+      rdf:label "persone #18" ;
+      dc:identifier 18 ;
+      owl:sameAs <https://viaf.org/viaf/309626326> , <https://lobid.org/gnd/1046325981> ;
+      foaf:name "Giovanni Cavana" .
+
+dcterms:medium
+      a       rdf:Property ;
+      rdfs:label "oggetti DBpedia_link_consistenza_fisica" , "oggetti consistenza_fisica" .
+
+<http://localhost:2020/resource/oggetti/65>
+      a       pico:beni_archivistici ;
+      rdfs:label "Conto delle spese" ;
+      dc:identifier 65 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/144> ;
+      skos:prefLabel "oggetti #65" .
+
+<http://localhost:2020/resource/oggetti/53>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro dele rasoni di M. Agost.o Rosso et Nicolao Bovone dal ... Petro Giorgio padri di Comune del 1590" ;
+      dc:identifier 53 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/23> ;
+      skos:prefLabel "oggetti #53" ;
+      skos:related <http://localhost:2020/resource/persone/6> , <http://localhost:2020/resource/persone/5> , <http://localhost:2020/resource/persone/4> .
+
+<http://localhost:2020/resource/oggetti/89>
+      a       pico:beni_archivistici ;
+      rdfs:label "Grida relativa agli esercizi commerciali e ai pesi e misure" ;
+      dc:identifier 89 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              9 ;
+      edm:occurredAt <http://localhost:2020/resource/date/7> ;
+      skos:prefLabel "oggetti #89" .
+
+<http://localhost:2020/resource/luoghi/13>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Austria" ;
+      dc:identifier 13 ;
+      dcterms:spatial 13.2E0 , 47.2E0 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Austria> ;
+      geo:lat 47.2E0 ;
+      geo:long 13.2E0 ;
+      skos:prefLabel "luoghi #13" .
+
+<http://localhost:2020/resource/oggetti/77>
+      a       pico:beni_archivistici ;
+      rdfs:label "Rubrica degli appalti delle gabelle" ;
+      dc:identifier 77 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              8 ;
+      edm:occurredAt <http://localhost:2020/resource/date/139> ;
+      skos:prefLabel "oggetti #77" .
+
+<http://localhost:2020/resource/oggetti/52>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro spese diverse dal 5 febbraio 1539 a tutto il dicembre 1549" ;
+      dc:identifier 52 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/55> ;
+      skos:prefLabel "oggetti #52" .
+
+<http://localhost:2020/resource/oggetti/119>
+      a       pico:beni_archivistici ;
+      rdfs:label "Processi" ;
+      dc:identifier 119 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/58> ;
+      skos:prefLabel "oggetti #119" .
+
+<http://localhost:2020/resource/oggetti/107>
+      a       pico:beni_archivistici ;
+      rdfs:label "Giubileo della Cruciata in Castelnuovo Scrivia" ;
+      dc:identifier 107 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/8> ;
+      edm:occurredAt <http://localhost:2020/resource/date/60> ;
+      skos:prefLabel "oggetti #107" .
+
+<http://localhost:2020/resource/oggetti/40>
+      a       pico:beni_archivistici ;
+      rdfs:label "Provvisioni, leggi e ordini" ;
+      dc:identifier 40 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #40" .
+
+<http://localhost:2020/resource/oggetti/204>
+      a       pico:beni_archivistici ;
+      rdfs:label "Publica scripta D. Ioannis Pauli Blanci de S. Quilico ac D. Ioannis Roderici notariorum hic denotat index 1571 in 1596 1614 in 1626. Not. Seebastianus Oliverius congerebat , anno 1743" ;
+      dc:identifier 204 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/70> ;
+      skos:prefLabel "oggetti #204" ;
+      skos:related <http://localhost:2020/resource/persone/24> , <http://localhost:2020/resource/persone/23> , <http://localhost:2020/resource/persone/22> .
+
+geo:lat
+      a       rdf:Property ;
+      rdfs:label "luoghi lat" .
+
+<http://localhost:2020/resource/oggetti/216>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 216 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/91> ;
+      skos:prefLabel "oggetti #216" .
+
+<http://localhost:2020/resource/date/150>
+      a       dc:date ;
+      dc:date "16 Luglio 1798" , "20 Dicembre 1798" ;
+      dc:identifier 150 ;
+      dcterms:temporal "1798 Luglio 16 - 1798 Dicembre 20" ;
+      edm:begin "Luglio" , "1798" , "16 Luglio 1798" , "16" ;
+      edm:day "20" , "16" ;
+      edm:end "20" , "1798" , "Dicembre" , "20 Dicembre 1798" ;
+      edm:hasType "intervallo" ;
+      edm:month "Luglio" , "Dicembre" ;
+      edm:year "1798" ;
+      skos:prefLabel "date #150" .
+
+<http://localhost:2020/resource/oggetti/58>
+      a       pico:beni_archivistici ;
+      rdfs:label "Pandetta del libro d'introito" ;
+      dc:identifier 58 ;
+      dcterms:medium "Rubrica" , <http://it.dbpedia.org/resource/Rubrica> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/39> ;
+      skos:prefLabel "oggetti #58" .
+
+<http://localhost:2020/resource/oggetti/46>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere diverse" ;
+      dc:identifier 46 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/45> ;
+      skos:prefLabel "oggetti #46" .
+
+<http://localhost:2020/resource/oggetti/10>
+      a       pico:beni_archivistici ;
+      rdfs:label "Vertenza della Terra di Novi riguardante le gabelle di macina, carne e altre tasse" ;
+      dc:identifier 10 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/6> ;
+      skos:prefLabel "oggetti #10" .
+
+<http://localhost:2020/resource/oggetti/34>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro delle deliberazioni dell'assemblea di giurisdizione del Lemo" ;
+      dc:identifier 34 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/149> ;
+      skos:prefLabel "oggetti #34" .
+
+<http://localhost:2020/resource/oggetti/22>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consolari dall'8 dicembre 1495 a tutto il 1518. Volume I" ;
+      dc:identifier 22 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/48> ;
+      skos:prefLabel "oggetti #22" .
+
+<http://localhost:2020/resource/luoghi/12>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Francia" ;
+      dc:identifier 12 ;
+      dcterms:spatial 1.88833E0 , 46.6034E0 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Francia> , <https://lobid.org/gnd/4155151-5> ;
+      geo:lat 46.6034E0 ;
+      geo:long 1.88833E0 ;
+      skos:prefLabel "luoghi #12" .
+
+<http://localhost:2020/resource/luoghi/9>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Garbagna" ;
+      dc:identifier 9 ;
+      dcterms:spatial 44.7805E0 , 8.99786E0 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Garbagna> , <https://lobid.org/gnd/7848589-7> , <https://www.wikidata.org/wiki/Q17366> ;
+      geo:lat 44.7805E0 ;
+      geo:long 8.99786E0 ;
+      skos:prefLabel "luoghi #9" .
+
+<http://localhost:2020/resource/oggetti/118>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro d'introito ed esito dei capitali di questo Ospedale e cenzi del Monastero di S. Chiara di questa CittÃ  alienati in vigor di Decreto de' 5 dicembre 1799. Nove" ;
+      dc:identifier 118 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:occurredAt <http://localhost:2020/resource/date/151> ;
+      skos:prefLabel "oggetti #118" .
+
+<http://localhost:2020/resource/oggetti/106>
+      a       pico:beni_archivistici ;
+      rdfs:label "Concessione per la celebrazione delle messe nella chiesa di S. Maria" ;
+      dc:identifier 106 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:occurredAt <http://localhost:2020/resource/date/2> ;
+      skos:prefLabel "oggetti #106" .
+
+<http://localhost:2020/resource/oggetti/215>
+      a       pico:beni_archivistici ;
+      rdfs:label "1638. Nicolosii Rubei notarii" ;
+      dc:identifier 215 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/28> ;
+      skos:prefLabel "oggetti #215" ;
+      skos:related <http://localhost:2020/resource/persone/27> .
+
+<http://localhost:2020/resource/oggetti/203>
+      a       pico:beni_archivistici ;
+      rdfs:label "Iac[obus] Antonii Capelloni 1580 in 1583" ;
+      dc:identifier 203 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/67> ;
+      skos:prefLabel "oggetti #203" ;
+      skos:related <http://localhost:2020/resource/persone/21> .
+
+<http://localhost:2020/resource/date/69>
+      a       dc:date ;
+      dc:identifier 69 ;
+      dcterms:temporal "1590 - 1659" ;
+      edm:begin "1590" ;
+      edm:end "1659" ;
+      edm:hasType "intervallo" ;
+      edm:year "1659" , "1590" ;
+      skos:prefLabel "date #69" .
+
+<http://localhost:2020/resource/date/8>
+      a       dc:date ;
+      dc:date "6 maggio 1656" ;
+      dc:identifier 8 ;
+      edm:day "6" ;
+      edm:hasType "giorno" ;
+      edm:month "Maggio" ;
+      edm:year "1656" ;
+      skos:prefLabel "date #8" .
+
+<http://localhost:2020/resource/date/57>
+      a       dc:date ;
+      dc:identifier 57 ;
+      dcterms:temporal "1550 - 1558" ;
+      edm:begin "1550" ;
+      edm:end "1558" ;
+      edm:hasType "intervallo" ;
+      edm:year "1558" , "1550" ;
+      skos:prefLabel "date #57" .
+
+<http://localhost:2020/resource/date/45>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1797> ;
+      dc:identifier 45 ;
+      edm:hasType "anno" ;
+      edm:year "1797" ;
+      skos:prefLabel "date #45" .
+
+<http://localhost:2020/resource/date/33>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1656> ;
+      dc:identifier 33 ;
+      edm:hasType "anno" ;
+      edm:year "1656" ;
+      skos:prefLabel "date #33" .
+
+<http://localhost:2020/resource/date/21>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1571> ;
+      dc:identifier 21 ;
+      edm:hasType "anno" ;
+      edm:year "1571" ;
+      skos:prefLabel "date #21" .
+
+<http://localhost:2020/resource/oggetti/47>
+      a       pico:beni_archivistici ;
+      rdfs:label "Corrispondenza" ;
+      dc:identifier 47 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #47" .
+
+<http://localhost:2020/resource/oggetti/35>
+      a       pico:beni_archivistici ;
+      rdfs:label "Miscellanea di leggi e decreti" ;
+      dc:identifier 35 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/133> ;
+      skos:prefLabel "oggetti #35" .
+
+<http://localhost:2020/resource/oggetti/59>
+      a       pico:beni_archivistici ;
+      rdfs:label "1756. Pandetta del libro ressiduari debitori e creditori della M[agnifica] CommunitÃ  di Nove" ;
+      dc:identifier 59 ;
+      dcterms:medium "Rubrica" , <http://it.dbpedia.org/resource/Rubrica> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/39> ;
+      skos:prefLabel "oggetti #59" .
+
+<http://localhost:2020/resource/luoghi/11>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Liguria" ;
+      dc:identifier 11 ;
+      dcterms:spatial 8.70263E0 , 44.4778E0 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Liguria> , <https://lobid.org/gnd/4035719-3> ;
+      geo:lat 44.4778E0 ;
+      geo:long 8.70263E0 ;
+      skos:prefLabel "luoghi #11" .
+
+<http://localhost:2020/resource/oggetti/23>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consolari dal 24 ottobre 1524 al 1530. Volume II" ;
+      dc:identifier 23 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/51> ;
+      skos:prefLabel "oggetti #23" .
+
+<http://localhost:2020/resource/oggetti/11>
+      a       pico:beni_archivistici ;
+      rdfs:label "Cabella della macina e della carne" ;
+      dc:identifier 11 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Opuscolo> , "Opuscolo" ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/34> ;
+      skos:prefLabel "oggetti #11" .
+
+<http://localhost:2020/resource/date/20>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1560> ;
+      dc:identifier 20 ;
+      edm:hasType "anno" ;
+      edm:year "1560" ;
+      skos:prefLabel "date #20" .
+
+<http://localhost:2020/resource/oggetti/129>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro delle contravvenzioni ai bandi politici e campestri" ;
+      dc:identifier 129 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/24> ;
+      skos:prefLabel "oggetti #129" .
+
+<http://localhost:2020/resource/luoghi/8>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Castelnuovo Scrivia" ;
+      dc:identifier 8 ;
+      dcterms:spatial 8.88036E0 , 44.9802E0 ;
+      owl:sameAs <http://it.dbpedia.org/resource/Castelnuovo_Scrivia> , <https://www.wikidata.org/wiki/Q17338> , <https://lobid.org/gnd/4579454-6> ;
+      geo:lat 44.9802E0 ;
+      geo:long 8.88036E0 ;
+      skos:prefLabel "luoghi #8" .
+
+<http://localhost:2020/resource/oggetti/117>
+      a       pico:beni_archivistici ;
+      rdfs:label "Oratorio in Novi" ;
+      dc:identifier 117 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #117" .
+
+<http://localhost:2020/resource/date/160>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/XVII_secolo> ;
+      dc:identifier 160 ;
+      edm:hasType "letterale" ;
+      edm:year "XVII secolo" ;
+      skos:prefLabel "date #160" .
+
+<http://localhost:2020/resource/oggetti/105>
+      a       pico:beni_archivistici ;
+      rdfs:label "Nota riguardante la nascita avvenuta in Babilonia di un bambino dotato di poteri miracolosi" ;
+      dc:identifier 105 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/7> ;
+      edm:occurredAt <http://localhost:2020/resource/date/1> ;
+      skos:prefLabel "oggetti #105" .
+
+<http://localhost:2020/resource/oggetti/202>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 202 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/22> ;
+      skos:prefLabel "oggetti #202" .
+
+<http://localhost:2020/resource/oggetti/214>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 214 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/90> ;
+      skos:prefLabel "oggetti #214" .
+
+<http://localhost:2020/resource/date/68>
+      a       dc:date ;
+      dc:identifier 68 ;
+      dcterms:temporal "1585 - 1587" ;
+      edm:begin "1585" ;
+      edm:end "1587" ;
+      edm:hasType "intervallo" ;
+      edm:year "1585" , "1587" ;
+      skos:prefLabel "date #68" .
+
+<http://localhost:2020/resource/date/56>
+      a       dc:date ;
+      dc:identifier 56 ;
+      dcterms:temporal "1543 - 1561" ;
+      edm:begin "1543" ;
+      edm:end "1561" ;
+      edm:hasType "intervallo" ;
+      edm:year "1543" , "1561" ;
+      skos:prefLabel "date #56" .
+
+<http://localhost:2020/resource/date/44>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1791> ;
+      dc:identifier 44 ;
+      edm:hasType "anno" ;
+      edm:year "1791" ;
+      skos:prefLabel "date #44" .
+
+<http://localhost:2020/resource/date/9>
+      a       dc:date ;
+      dc:date "23 giugno 1756" ;
+      dc:identifier 9 ;
+      edm:day "23" ;
+      edm:hasType "giorno" ;
+      edm:month "Giugno" ;
+      edm:year "1756" ;
+      skos:prefLabel "date #9" .
+
+<http://localhost:2020/resource/date/32>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1652> ;
+      dc:identifier 32 ;
+      edm:hasType "anno" ;
+      edm:year "1652" ;
+      skos:prefLabel "date #32" .
+
+geo:long
+      a       rdf:Property ;
+      rdfs:label "luoghi long" .
+
+<http://localhost:2020/resource/oggetti/201>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 201 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/65> ;
+      skos:prefLabel "oggetti #201" .
+
+<http://localhost:2020/resource/oggetti/68>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro de conti dal 30 luglio 1798 a 3 aprile 1799" ;
+      dc:identifier 68 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/147> ;
+      skos:prefLabel "oggetti #68" .
+
+<http://localhost:2020/resource/oggetti/32>
+      a       pico:beni_archivistici ;
+      rdfs:label "Minute dei processi verbali delle adunanze della MunicipalitÃ " ;
+      dc:identifier 32 ;
+      dcterms:medium "Quaderni Rossi" , <http://it.dbpedia.org/resource/Quaderni_Rossi> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/146> ;
+      skos:prefLabel "oggetti #32" .
+
+<http://localhost:2020/resource/oggetti/20>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro de decreti;Trascrizione di atti dal 1388 al 1796" ;
+      dc:identifier 20 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              3 ;
+      edm:occurredAt <http://localhost:2020/resource/date/158> ;
+      skos:prefLabel "oggetti #20" .
+
+<http://localhost:2020/resource/luoghi/10>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Tortona" ;
+      dc:identifier 10 ;
+      dcterms:spatial 8.86413E0 , 44.8967E0 ;
+      owl:sameAs <https://lobid.org/gnd/4233706-9> , <http://it.dbpedia.org/resource/Tortona> , <https://www.wikidata.org/wiki/Q17686> ;
+      geo:lat 44.8967E0 ;
+      geo:long 8.86413E0 ;
+      skos:prefLabel "luoghi #10" .
+
+<http://localhost:2020/resource/oggetti/56>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro dei conti comunali" ;
+      dc:identifier 56 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/114> ;
+      skos:prefLabel "oggetti #56" .
+
+<http://localhost:2020/resource/oggetti/44>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere diverse" ;
+      dc:identifier 44 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/68> ;
+      skos:prefLabel "oggetti #44" .
+
+<http://localhost:2020/resource/oggetti/128>
+      a       pico:beni_archivistici ;
+      rdfs:label "Accusationum" ;
+      dc:identifier 128 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/108> ;
+      skos:prefLabel "oggetti #128" .
+
+<http://localhost:2020/resource/oggetti/116>
+      a       pico:beni_archivistici ;
+      rdfs:label "Culto. Libro delle messe celebrate nella Chiesa campestre di S. Rocco" ;
+      dc:identifier 116 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:occurredAt <http://localhost:2020/resource/date/147> ;
+      skos:prefLabel "oggetti #116" .
+
+<http://localhost:2020/resource/oggetti/213>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 213 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/27> ;
+      skos:prefLabel "oggetti #213" .
+
+<http://localhost:2020/resource/oggetti/104>
+      a       pico:beni_archivistici ;
+      rdfs:label "Petizione del chirurgo flebotomo Giovanni Battista Rosotti" ;
+      dc:identifier 104 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              10 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #104" ;
+      skos:related <http://localhost:2020/resource/persone/13> .
+
+<http://localhost:2020/resource/date/59>
+      a       dc:date ;
+      dc:identifier 59 ;
+      dcterms:temporal "1560 - 1586" ;
+      edm:begin "1560" ;
+      edm:end "1586" ;
+      edm:hasType "intervallo" ;
+      edm:year "1586" , "1560" ;
+      skos:prefLabel "date #59" .
+
+<http://localhost:2020/resource/date/47>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1799> ;
+      dc:identifier 47 ;
+      edm:hasType "anno" ;
+      edm:year "1799" ;
+      skos:prefLabel "date #47" .
+
+<http://localhost:2020/resource/date/35>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1668> ;
+      dc:identifier 35 ;
+      edm:hasType "anno" ;
+      edm:year "1668" ;
+      skos:prefLabel "date #35" .
+
+<http://localhost:2020/resource/date/23>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1590> ;
+      dc:identifier 23 ;
+      edm:hasType "anno" ;
+      edm:year "1590" ;
+      skos:prefLabel "date #23" .
+
+<http://localhost:2020/resource/date/11>
+      a       dc:date ;
+      dc:date "15 marzo 1797" ;
+      dc:identifier 11 ;
+      edm:day "15" ;
+      edm:hasType "giorno" ;
+      edm:month "Marzo" ;
+      edm:year "1797" ;
+      skos:prefLabel "date #11" .
+
+<http://localhost:2020/resource/oggetti/69>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro dei creditori e dei debitori" ;
+      dc:identifier 69 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/47> ;
+      skos:prefLabel "oggetti #69" .
+
+<http://localhost:2020/resource/oggetti/200>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 200 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/63> ;
+      skos:prefLabel "oggetti #200" .
+
+<http://localhost:2020/resource/oggetti/212>
+      a       pico:beni_archivistici ;
+      rdfs:label "1630. Nicolosii Rubei notarii" ;
+      dc:identifier 212 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/27> ;
+      skos:prefLabel "oggetti #212" ;
+      skos:related <http://localhost:2020/resource/persone/27> .
+
+<http://localhost:2020/resource/oggetti/57>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro d'introiti" ;
+      dc:identifier 57 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              7 ;
+      edm:occurredAt <http://localhost:2020/resource/date/39> ;
+      skos:prefLabel "oggetti #57" .
+
+<http://localhost:2020/resource/oggetti/21>
+      a       pico:beni_archivistici ;
+      rdfs:label "Sentenze decreti dei duchi di Milano e dei supremi magistrati;Trascrizione di atti dal 1490 al 1728" ;
+      dc:identifier 21 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              3 ;
+      edm:occurredAt <http://localhost:2020/resource/date/158> ;
+      skos:prefLabel "oggetti #21" ;
+      skos:related <http://localhost:2020/resource/persone/3> .
+
+<http://localhost:2020/resource/oggetti/45>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere diverse" ;
+      dc:identifier 45 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/138> ;
+      skos:prefLabel "oggetti #45" .
+
+<http://localhost:2020/resource/oggetti/33>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consulari dal 16 luglio 1798 a tutto il 20 dicembre. Volume XII" ;
+      dc:identifier 33 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/150> ;
+      skos:prefLabel "oggetti #33" .
+
+<http://localhost:2020/resource/oggetti/139>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro delle contravvenzioni ai bandi politici e campestri" ;
+      dc:identifier 139 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/30> ;
+      skos:prefLabel "oggetti #139" .
+
+<http://localhost:2020/resource/oggetti/127>
+      a       pico:beni_archivistici ;
+      rdfs:label "Processi" ;
+      dc:identifier 127 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/107> ;
+      skos:prefLabel "oggetti #127" .
+
+<http://localhost:2020/resource/oggetti/115>
+      a       pico:beni_archivistici ;
+      rdfs:label "Culto. Leggi, regolamenti, provvidenze, circolari e pastorali. Predicatori e loro nomina" ;
+      dc:identifier 115 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #115" .
+
+<http://localhost:2020/resource/oggetti/103>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro dei verbali della Deputazione delle pubbliche scuole" ;
+      dc:identifier 103 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              10 ;
+      edm:occurredAt <http://localhost:2020/resource/date/129> ;
+      skos:prefLabel "oggetti #103" .
+
+<http://localhost:2020/resource/date/58>
+      a       dc:date ;
+      dc:identifier 58 ;
+      dcterms:temporal "1558 - 1624" ;
+      edm:begin "1558" ;
+      edm:end "1624" ;
+      edm:hasType "intervallo" ;
+      edm:year "1558" , "1624" ;
+      skos:prefLabel "date #58" .
+
+<http://localhost:2020/resource/date/46>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1798> ;
+      dc:identifier 46 ;
+      edm:hasType "anno" ;
+      edm:year "1798" ;
+      skos:prefLabel "date #46" .
+
+<http://localhost:2020/resource/date/34>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1667> ;
+      dc:identifier 34 ;
+      edm:hasType "anno" ;
+      edm:year "1667" ;
+      skos:prefLabel "date #34" .
+
+<http://localhost:2020/resource/date/22>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1578> ;
+      dc:identifier 22 ;
+      edm:hasType "anno" ;
+      edm:year "1578" ;
+      skos:prefLabel "date #22" .
+
+<http://localhost:2020/resource/date/10>
+      a       dc:date ;
+      dc:date "13 settembre 1756" ;
+      dc:identifier 10 ;
+      edm:day "13" ;
+      edm:hasType "giorno" ;
+      edm:month "Settembre" ;
+      edm:year "1756" ;
+      skos:prefLabel "date #10" .
+
+<http://localhost:2020/resource/oggetti/14>
+      a       pico:beni_archivistici ;
+      rdfs:label "Convenzione con la cittÃ  di Genova del 1756" ;
+      dc:identifier 14 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/1> ;
+      edm:occurredAt <http://localhost:2020/resource/date/10> ;
+      skos:prefLabel "oggetti #14" .
+
+<http://localhost:2020/resource/oggetti/102>
+      a       pico:beni_archivistici ;
+      rdfs:label "Ospedale di Novi, Gavi e Arquata" ;
+      dc:identifier 102 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              10 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/6> , <http://localhost:2020/resource/luoghi/3> ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #102" .
+
+<http://localhost:2020/resource/oggetti/211>
+      a       pico:beni_archivistici ;
+      rdfs:label "Notulario del notaio Paolo Bononis" ;
+      dc:identifier 211 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/85> ;
+      skos:prefLabel "oggetti #211" .
+
+<http://localhost:2020/resource/oggetti/223>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 223 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/106> ;
+      skos:prefLabel "oggetti #223" .
+
+<http://localhost:2020/resource/oggetti/38>
+      a       pico:beni_archivistici ;
+      rdfs:label "Provvisioni, leggi e ordini" ;
+      dc:identifier 38 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/45> ;
+      skos:prefLabel "oggetti #38" .
+
+<http://localhost:2020/resource/oggetti/26>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consolari da 25 luglio 1677 a tutto 12 settembre 1685. Volume V" ;
+      dc:identifier 26 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/105> ;
+      skos:prefLabel "oggetti #26" .
+
+<http://localhost:2020/resource/luoghi/5>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Spagna" ;
+      dc:identifier 5 ;
+      dcterms:spatial 39.3262E0 , -4.83806E0 ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q29> , <http://it.dbpedia.org/resource/Spagna> ;
+      geo:lat 39.3262E0 ;
+      geo:long -4.83806E0 ;
+      skos:prefLabel "luoghi #5" .
+
+<http://localhost:2020/resource/oggetti/138>
+      a       pico:beni_archivistici ;
+      rdfs:label "Vacheta accusarum" ;
+      dc:identifier 138 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/29> ;
+      skos:prefLabel "oggetti #138" .
+
+<http://localhost:2020/resource/oggetti/126>
+      a       pico:beni_archivistici ;
+      rdfs:label "Liber accusationum" ;
+      dc:identifier 126 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/103> ;
+      skos:prefLabel "oggetti #126" .
+
+<http://localhost:2020/resource/oggetti/114>
+      a       pico:beni_archivistici ;
+      rdfs:label "Contribuzioni ed imposte. Requisizione degli ori, argenti e gioie appartenenti alle chiese, monasteri, conventi ed opere pie e municipii" ;
+      dc:identifier 114 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:occurredAt <http://localhost:2020/resource/date/141> ;
+      skos:prefLabel "oggetti #114" .
+
+<http://localhost:2020/resource/date/4>
+      a       dc:date ;
+      dc:date "24 gennaio 1569" ;
+      dc:identifier 4 ;
+      edm:day "24" ;
+      edm:hasType "giorno" ;
+      edm:month "Gennaio" ;
+      edm:year "1569" ;
+      skos:prefLabel "date #4" .
+
+<http://localhost:2020/resource/date/49>
+      a       dc:date ;
+      dc:identifier 49 ;
+      dcterms:temporal "1500 - Inizio XVI sec." ;
+      edm:begin "1500" ;
+      edm:end "XVI secolo" ;
+      edm:hasType "intervallo" ;
+      edm:year "XVI secolo" , "1500" ;
+      skos:prefLabel "date #49" .
+
+<http://localhost:2020/resource/date/37>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1688> ;
+      dc:identifier 37 ;
+      edm:hasType "anno" ;
+      edm:year "1688" ;
+      skos:prefLabel "date #37" .
+
+<http://localhost:2020/resource/date/25>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1605> ;
+      dc:identifier 25 ;
+      edm:hasType "anno" ;
+      edm:year "1605" ;
+      skos:prefLabel "date #25" .
+
+<http://localhost:2020/resource/date/13>
+      a       dc:date ;
+      dc:date "5 settembre 1798" ;
+      dc:identifier 13 ;
+      edm:day "5" ;
+      edm:hasType "giorno" ;
+      edm:month "Settembre" ;
+      edm:year "1798" ;
+      skos:prefLabel "date #13" .
+
+<http://localhost:2020/resource/oggetti/39>
+      a       pico:beni_archivistici ;
+      rdfs:label "Ordini regolamenti provvidenze leggi" ;
+      dc:identifier 39 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #39" .
+
+<http://localhost:2020/resource/oggetti/113>
+      a       pico:beni_archivistici ;
+      rdfs:label "Figurato de beni della chiesa parrocchiale di S. NicolÃ²" ;
+      dc:identifier 113 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/12> ;
+      edm:occurredAt <http://localhost:2020/resource/date/44> ;
+      skos:prefLabel "oggetti #113" .
+
+<http://localhost:2020/resource/oggetti/222>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 222 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/104> ;
+      skos:prefLabel "oggetti #222" .
+
+<http://localhost:2020/resource/oggetti/101>
+      a       pico:beni_archivistici ;
+      rdfs:label "Istruzione pubblica. Provvidenze, regolamenti, carteggio relativi alla nomina del personale ed altri oggetti" ;
+      dc:identifier 101 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              10 ;
+      edm:occurredAt <http://localhost:2020/resource/date/45> ;
+      skos:prefLabel "oggetti #101" .
+
+<http://localhost:2020/resource/oggetti/27>
+      a       pico:beni_archivistici ;
+      rdfs:label "Deliberationum M[agnifi]ci Consilii et M[agnifi]ce Deputationis M[agnifi]ce Com[munitatis] Novarum. 1746 in 1747. 1747 in 1748" ;
+      dc:identifier 27 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/118> ;
+      skos:prefLabel "oggetti #27" .
+
+<http://localhost:2020/resource/oggetti/15>
+      a       pico:beni_archivistici ;
+      rdfs:label "Acque" ;
+      dc:identifier 15 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/40> ;
+      skos:prefLabel "oggetti #15" .
+
+<http://localhost:2020/resource/oggetti/210>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 210 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/84> ;
+      skos:prefLabel "oggetti #210" ;
+      skos:related <http://localhost:2020/resource/persone/25> .
+
+<http://localhost:2020/resource/luoghi/4>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Busseto" ;
+      dc:identifier 4 ;
+      dcterms:spatial 44.9806E0 , 10.0421E0 ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q100772> , <http://it.dbpedia.org/resource/Busseto> , <https://lobid.org/gnd/4528029-0> ;
+      geo:lat 44.9806E0 ;
+      geo:long 10.0421E0 ;
+      skos:prefLabel "luoghi #4" .
+
+<http://localhost:2020/resource/oggetti/149>
+      a       pico:beni_archivistici ;
+      rdfs:label "Amministrazione di polizia" ;
+      dc:identifier 149 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/138> ;
+      skos:prefLabel "oggetti #149" .
+
+<http://localhost:2020/resource/oggetti/137>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro delle contravvenzioni ai bandi politici e campestri" ;
+      dc:identifier 137 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/89> ;
+      skos:prefLabel "oggetti #137" .
+
+edm:month
+      a       rdf:Property ;
+      rdfs:label "date mese_iniziale" , "date mese_finale" , "date mese" .
+
+<http://localhost:2020/resource/oggetti/125>
+      a       pico:beni_archivistici ;
+      rdfs:label "Pro N. Cesare Rubeo contra Dacursium et Socios" ;
+      dc:identifier 125 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/35> ;
+      skos:prefLabel "oggetti #125" ;
+      skos:related <http://localhost:2020/resource/persone/14> .
+
+<http://localhost:2020/resource/date/48>
+      a       dc:date ;
+      dc:date "8 dicembre 1495" ;
+      dc:identifier 48 ;
+      dcterms:temporal "1495 - 1518" ;
+      edm:begin "8 dicembre 1495" , "8" , "Dicembre" , "1495" ;
+      edm:day "8" ;
+      edm:end "1518" ;
+      edm:hasType "intervallo" ;
+      edm:month "Dicembre" ;
+      edm:year "1495" , "1518" ;
+      skos:prefLabel "date #48" .
+
+<http://localhost:2020/resource/date/5>
+      a       dc:date ;
+      dc:date "6 giugno 1604" ;
+      dc:identifier 5 ;
+      edm:day "6" ;
+      edm:hasType "giorno" ;
+      edm:month "Giugno" ;
+      edm:year "1604" ;
+      skos:prefLabel "date #5" .
+
+<http://localhost:2020/resource/date/36>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1673> ;
+      dc:identifier 36 ;
+      edm:hasType "anno" ;
+      edm:year "1673" ;
+      skos:prefLabel "date #36" .
+
+<http://localhost:2020/resource/date/24>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1602> ;
+      dc:identifier 24 ;
+      edm:hasType "anno" ;
+      edm:year "1602" ;
+      skos:prefLabel "date #24" .
+
+<http://localhost:2020/resource/date/12>
+      a       dc:date ;
+      dc:date "31 luglio 1797" ;
+      dc:identifier 12 ;
+      edm:day "31" ;
+      edm:hasType "giorno" ;
+      edm:month "Luglio" ;
+      edm:year "1797" ;
+      skos:prefLabel "date #12" .
+
+<http://localhost:2020/resource/oggetti/124>
+      a       pico:beni_archivistici ;
+      rdfs:label "Processi" ;
+      dc:identifier 124 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/28> ;
+      skos:prefLabel "oggetti #124" .
+
+<http://localhost:2020/resource/oggetti/36>
+      a       pico:beni_archivistici ;
+      rdfs:label "Provvisioni, leggi, ordini militari" ;
+      dc:identifier 36 ;
+      dc:language <http://it.dbpedia.org/property/francese> , "francese" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/140> ;
+      skos:prefLabel "oggetti #36" .
+
+<http://localhost:2020/resource/oggetti/112>
+      a       pico:beni_archivistici ;
+      rdfs:label "Beni nazionali e soppressione de monasteri" ;
+      dc:identifier 112 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/12> ;
+      edm:occurredAt <http://localhost:2020/resource/date/136> ;
+      skos:prefLabel "oggetti #112" .
+
+<http://localhost:2020/resource/oggetti/24>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consolari dal 12 febbraio 1562 a tutto il 27 aprile 1579. Volume III" ;
+      dc:identifier 24 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/62> ;
+      skos:prefLabel "oggetti #24" .
+
+<http://localhost:2020/resource/oggetti/100>
+      a       pico:beni_archivistici ;
+      rdfs:label "Piano che si propone al Comitato de' publici stabilimenti della CittÃ  di Novi, riguardo il metodo da tenersi nelle nuove scuole ... da erigersi nella detta CittÃ " ;
+      dc:identifier 100 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Quaderno> , "Quaderno" ;
+      pico:serie_archivistiche
+              10 ;
+      edm:occurredAt <http://localhost:2020/resource/date/12> ;
+      skos:prefLabel "oggetti #100" .
+
+<http://localhost:2020/resource/oggetti/48>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere diverse" ;
+      dc:identifier 48 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #48" .
+
+<http://localhost:2020/resource/oggetti/221>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 221 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/98> ;
+      skos:prefLabel "oggetti #221" .
+
+<http://localhost:2020/resource/oggetti/12>
+      a       pico:beni_archivistici ;
+      rdfs:label "Saggio storico della cittÃ  di Nove del dottore Ercole Spinola" ;
+      dc:identifier 12 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/161> ;
+      skos:prefLabel "oggetti #12" ;
+      skos:related <http://localhost:2020/resource/persone/2> .
+
+<http://localhost:2020/resource/luoghi/7>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Babilonia" ;
+      dc:identifier 7 ;
+      dcterms:spatial 44.4328E0 , 32.4822E0 ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q5684> , <http://it.dbpedia.org/resource/Babilonia> ;
+      geo:lat 32.4822E0 ;
+      geo:long 44.4328E0 ;
+      skos:prefLabel "luoghi #7" .
+
+<http://localhost:2020/resource/oggetti/148>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro delle contravvenzioni ai bandi politici e campestri" ;
+      dc:identifier 148 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/126> ;
+      skos:prefLabel "oggetti #148" .
+
+edm:begin
+      a       rdf:Property ;
+      rdfs:label "date mese_iniziale" , "date giorno_iniziale" , "date anno_iniziale" , "date data_iniziale" .
+
+<http://localhost:2020/resource/oggetti/136>
+      a       pico:beni_archivistici ;
+      rdfs:label "Vaccheta accusarum Novae. Anni 1629" ;
+      dc:identifier 136 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/87> ;
+      skos:prefLabel "oggetti #136" .
+
+edm:day
+      a       rdf:Property ;
+      rdfs:label "date giorno" , "date giorno_finale" , "date giorno_iniziale" .
+
+<http://localhost:2020/resource/date/39>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1756> ;
+      dc:identifier 39 ;
+      edm:hasType "anno" ;
+      edm:year "1756" ;
+      skos:prefLabel "date #39" .
+
+<http://localhost:2020/resource/date/27>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1630> ;
+      dc:identifier 27 ;
+      edm:hasType "anno" ;
+      edm:year "1630" ;
+      skos:prefLabel "date #27" .
+
+<http://localhost:2020/resource/date/6>
+      a       dc:date ;
+      dc:date "30 agosto 1640" ;
+      dc:identifier 6 ;
+      edm:day "30" ;
+      edm:hasType "giorno" ;
+      edm:month "Agosto" ;
+      edm:year "1640" ;
+      skos:prefLabel "date #6" .
+
+<http://localhost:2020/resource/date/15>
+      a       dc:date ;
+      dc:date "10 febbraio 1799" ;
+      dc:identifier 15 ;
+      edm:day "10" ;
+      edm:hasType "giorno" ;
+      edm:month "Febbraio" ;
+      edm:year "1799" ;
+      skos:prefLabel "date #15" .
+
+<http://localhost:2020/resource/oggetti/25>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro degli atti consolari dal 17 agosto 1579 a tutto il 28 maggio 1594. Volume IV" ;
+      dc:identifier 25 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              4 ;
+      edm:occurredAt <http://localhost:2020/resource/date/66> ;
+      skos:prefLabel "oggetti #25" .
+
+<http://localhost:2020/resource/oggetti/135>
+      a       pico:beni_archivistici ;
+      rdfs:label "Verbali d'accusa per contravvenzioni ai bandi campestri" ;
+      dc:identifier 135 ;
+      dc:language <http://it.dbpedia.org/property/latino> , "latino" ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/83> ;
+      skos:prefLabel "oggetti #135" .
+
+<http://localhost:2020/resource/oggetti/13>
+      a       pico:beni_archivistici ;
+      rdfs:label "Diritti e privilegi del Comune di Novi, e cambiamenti di dominio. Fiere" ;
+      dc:identifier 13 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              2 ;
+      edm:occurredAt <http://localhost:2020/resource/date/9> ;
+      skos:prefLabel "oggetti #13" .
+
+<http://localhost:2020/resource/oggetti/123>
+      a       pico:beni_archivistici ;
+      rdfs:label "Processi civili e criminali" ;
+      dc:identifier 123 ;
+      dc:language <http://it.dbpedia.org/property/italiano> , <http://it.dbpedia.org/property/latino> , "Italiano" , "latino" ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              12 ;
+      edm:occurredAt <http://localhost:2020/resource/date/88> ;
+      skos:prefLabel "oggetti #123" .
+
+<http://localhost:2020/resource/oggetti/111>
+      a       pico:beni_archivistici ;
+      rdfs:label "Libro de' fondi e capitali della Chiesa Insegna Collegiata" ;
+      dc:identifier 111 ;
+      dcterms:medium "Foglio" , <http://it.dbpedia.org/resource/Foglio> ;
+      pico:serie_archivistiche
+              11 ;
+      edm:happenedAt <http://localhost:2020/resource/luoghi/11> ;
+      edm:occurredAt <http://localhost:2020/resource/date/160> ;
+      skos:prefLabel "oggetti #111" .
+
+<http://localhost:2020/resource/oggetti/49>
+      a       pico:beni_archivistici ;
+      rdfs:label "Lettere diverse" ;
+      dc:identifier 49 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              6 ;
+      edm:occurredAt <http://localhost:2020/resource/date/46> ;
+      skos:prefLabel "oggetti #49" .
+
+<http://localhost:2020/resource/oggetti/220>
+      a       pico:beni_archivistici ;
+      rdfs:label "Atti notarili" ;
+      dc:identifier 220 ;
+      dcterms:medium <http://it.dbpedia.org/resource/Filza> , "Filza" ;
+      pico:serie_archivistiche
+              18 ;
+      edm:occurredAt <http://localhost:2020/resource/date/97> ;
+      skos:prefLabel "oggetti #220" .
+
+<http://localhost:2020/resource/oggetti/37>
+      a       pico:beni_archivistici ;
+      rdfs:label "Registro delle sessioni del Governo provvisorio della Repubblica di Genova dal giorno della sua installazione 14 giugno 1797" ;
+      dc:identifier 37 ;
+      dcterms:medium "volume" , <http://it.dbpedia.org/property/volume> ;
+      pico:serie_archivistiche
+              5 ;
+      edm:occurredAt <http://localhost:2020/resource/date/145> ;
+      skos:prefLabel "oggetti #37" .
+
+<http://localhost:2020/resource/luoghi/6>
+      a       edm:Place , dc:coverage ;
+      rdfs:label "Arquata" ;
+      dc:identifier 6 ;
+      dcterms:spatial 8.88534E0 , 44.6878E0 ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q34638> , <http://it.dbpedia.org/resource/Arquata_Scrivia> , <https://lobid.org/gnd/4999156-5> ;
+      geo:lat 44.6878E0 ;
+      geo:long 8.88534E0 ;
+      skos:prefLabel "luoghi #6" .
+
+dc:language
+      a       rdf:Property ;
+      rdfs:label "oggetti DBpedia_link_lingua" , "oggetti seconda_lingua" , "oggetti DBpedia_link_lingua2" , "oggetti lingua" .
+
+<http://localhost:2020/resource/oggetti/159>
+      a       pico:beni_archivistici ;
+      rdfs:label "Carteggio in oggetti di servizio" ;
+      dc:identifier 159 ;
+      dcterms:medium "fascicolo" , <http://it.dbpedia.org/property/fascicolo> ;
+      pico:serie_archivistiche
+              14 ;
+      edm:occurredAt <http://localhost:2020/resource/date/142> ;
+      skos:prefLabel "oggetti #159" .
+
+<http://localhost:2020/resource/oggetti/147>
+      a       pico:beni_archivistici ;
+      rdfs:label "Fascicolo dei processi sommarii et giudicati per contravvenzioni ai bandi politici dal 7 maggio 1722 a tutto 19 aprile 1723" ;
+      dc:identifier 147 ;
+      dcterms:medium "registro" , <http://it.dbpedia.org/property/registro> ;
+      pico:serie_archivistiche
+              13 ;
+      edm:occurredAt <http://localhost:2020/resource/date/112> ;
+      skos:prefLabel "oggetti #147" .
+
+<http://localhost:2020/resource/date/38>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1702> ;
+      dc:identifier 38 ;
+      edm:hasType "anno" ;
+      edm:year "1702" ;
+      skos:prefLabel "date #38" .
+
+<http://localhost:2020/resource/date/26>
+      a       dc:date ;
+      dc:date <http://it.dbpedia.org/resource/1614> ;
+      dc:identifier 26 ;
+      edm:hasType "anno" ;
+      edm:year "1614" ;
+      skos:prefLabel "date #26" .
+
+<http://localhost:2020/resource/date/14>
+      a       dc:date ;
+      dc:date "1 febbraio 1799" ;
+      dc:identifier 14 ;
+      edm:day "1" ;
+      edm:hasType "giorno" ;
+      edm:month "Febbraio" ;
+      edm:year "1799" ;
+      skos:prefLabel "date #14" .
+
+<http://localhost:2020/resource/date/7>
+      a       dc:date ;
+      dc:date "7 maggio 1649" ;
+      dc:identifier 7 ;
+      edm:day "7" ;
+      edm:hasType "giorno" ;
+      edm:month "Maggio" ;
+      edm:year "1649" ;
+      skos:prefLabel "date #7" .
